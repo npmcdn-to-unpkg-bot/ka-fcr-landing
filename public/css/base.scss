@@ -31,7 +31,7 @@ html, body {
     width: 100%;
 }
 
-rl-ka-dish-landing {
+rl-ka-fcr-landing {
 	@import 'reset.scss';
 	@import 'variables.scss';
 	@import 'mixins.scss';
@@ -84,7 +84,7 @@ rl-ka-dish-landing {
 }
 
 .device-mobile {
-	rl-ka-dish-landing {
+	rl-ka-fcr-landing {
 		// @import 'components/header.scss';
 		@import 'components/mobile/videoplayer.scss';
 	    @import 'components/mobile/masthead.scss';
