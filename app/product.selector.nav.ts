@@ -10,9 +10,10 @@ import {AnalyticsServiceOn} from './analytics.directive'
 				<img src="{{product.prodImage}}"/>
 				<div class="ka-dish-landing-button"><p [innerHTML]="product.prodName"></p></div>
 			</div>
-			<a target="_blank" href="{{ctaLink}}" analyticsOn="click" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}"><div class="see-all">
+			<!--  <a target="_blank" href="{{ctaLink}}" analyticsOn="click" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}">
+			<div class="see-all">
 				<p>{{ctaText}}</p>
-			</div></a>
+			</div></a> -->
 		</div>
     `,
     directives: [AnalyticsServiceOn]

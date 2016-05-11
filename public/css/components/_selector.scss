@@ -183,17 +183,18 @@ product-selector-nav {
     }
     
     .ka-dish-landing-product,.see-all {
+        
         float: left;
-        width: 14.28571428571429%;
-        margin-right: 5%;
+        width: 20%;
+        margin: 2.5%;
 
-        @media screen and (max-width: $mobileBreakpoint) {
+        /* @media screen and (max-width: $mobileBreakpoint) {
             margin-right: 7px;
         }
 
         @media screen and (max-width: 769px) and (min-width: 479px) {
             margin-right: 13.3px
-        }
+        } */
 
         img {
             width: 100%;
@@ -204,7 +205,7 @@ product-selector-nav {
         font-size: 0.8em;
 
         @media screen and (max-width: $mobileBreakpoint) {
-            width: 20.5%;
+            /* width: 20.5%; */
         }
 
         > img {
@@ -222,13 +223,13 @@ product-selector-nav {
         }
     }
 
-    .ka-dish-landing-product:first-child {
+    /* .ka-dish-landing-product:first-child {
         margin-left: 4.5%;
 
         @media screen and (max-width: $mobileBreakpoint) {
             margin-left: 6.3% !important;
         }
-    }
+    } */
 
     .ka-dish-landing-button {
         margin-top: 20px;

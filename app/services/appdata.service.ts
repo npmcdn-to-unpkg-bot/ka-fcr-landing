@@ -16,7 +16,7 @@ export class AppDataService {
 				enabled: true,
 				image: "./public/images/refer-landing-masthead.jpg",
 				alt: "test",
-				title: "Dishwashers"
+				title: "Cooking"
 			},
 			banner: {
 				enabled: true,
@@ -25,7 +25,7 @@ export class AppDataService {
 				ctaText: 'Learn More',
 				analytics: {
 					category: "@category",
-					action: "Clicked Dish-Footer Banner",
+					action: "Clicked Cooking-Footer Banner",
 					label: "VBL-Learn More"
 				}
 			},
@@ -42,8 +42,8 @@ export class AppDataService {
 						type: "cart",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Buying Guide"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Buying Guide"
 						}
 					},
 					{
@@ -56,22 +56,22 @@ export class AppDataService {
 						type: "star",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Ratings & Reviews"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Ratings & Reviews"
 						}
 					},
 					{
 						image: "./public/images/refer-landing-mag-glass.png",
 						title: "Find Your KitchenAid",
 						alt: "Find your KitchenAid",
-						desc: "Need help finding your dishwasher?",
+						desc: "Need help finding your cooking appliances?",
 						cta: "Click Here",
 						link: "http://findmy.kitchenaid.ca/#/question/Appliance",
 						type: "magnifier",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Find Your KAD"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Find Your KAD"
 						}
 					}
 				]
@@ -81,27 +81,27 @@ export class AppDataService {
 				title: "More Fresh Features",
 				features: [
 					{
-						title: "Clean Water Wash System",
+						title: "Baking Drawer",
 						image: "./public/images/more-features-1.jpg",
 						link: false,
 						alt: "test",
-						text: "Continuously filters the wash water for outstanding results. Plus, thanks to the innovative filter design there's no need to ever remove and clean the filter.",
+						text: "Separate compartments give you even more cooking options so you can keep dishes warm, slow-cook or bake at temperatures up to 450 degrees.",
 						cta: ""
 					},
 					{
-						title: "Bottle Wash",
+						title: "Wireless Probe",
 						image: "./public/images/more-features-2.jpg",
 						link: false,
 						alt: "Refrigerator interior with assorted foods",
-						text: "Dedicated and adjustable spray nozzles designed for tall glasses and bottles provide a high-powered spray wash for hard-to-reach places.",
+						text: "Alerts you when desired food temperatures have been reached so you can walk away from the oven without walking away from control.",
 						cta: ""
 					},
 					{
-						title: "Advanced ProDry<sup>&trade;</sup> System",
+						title: "SatinGlide<sup>&trade;</sup> Roll-Out Extension Racks",
 						image: "./public/images/more-features-3.jpg",
 						link: false,
 						alt: "Opened bottom freezer",
-						text: "The best drying performance without using a rinse aid delivered through an innovative system that draws moisture out of the wash tub to ensure dry dishes at the end of each cycle.",
+						text: "Allows easy roll out for loading and unloading, and features an easy-grip handle, so you can confidently cook with large or heavy dishes.",
 						cta: ""
 					}
 				]
@@ -120,36 +120,36 @@ export class AppDataService {
 						desc: 'Behold the KitchenAid<sup>®</sup> Medallion, the iconic finishing stamp on all of our revolutionary new refrigerators, wall-ovens, dishwashers, microwaves and ranges. It’s a mark that lets you know you’re cooking with a suite of chef-inspired, premium appliances.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Design Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Design Video"
 						}
 					},
 					{
-						id: 'Jnosm33VWtE',
+						id: 'b5hsu0aa4mw',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Revolutionary Dynamic Wash Arms | KitchenAid<sup>&reg;</sup>',
+						title: 'KitchenAid<sup>&reg;</sup> Even-Heat<sup>&trade;</sup> True Convection Oven',
 						ctaTitle: 'Dynamic Wash Arms',
 						alt: 'test',
 						cta: 'Play Video',
-						desc: 'Behold, our new line of dishwashers with revolutionary Dynamic Wash Arms. They blast water in every direction, giving every inch of each dish a powerful clean so you can start on your next creation.',
+						desc: 'Produces flawless results. The unique bow-tie design and convection fan ensure the inside of the oven is heated to, and stays at, the perfect temperature.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Dynamic Wash Arms Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Dynamic Wash Arms Video"
 						}
 					},
 					{
-						id: 'wwpCbQn2s4c',
+						id: 'OjrrwhNKwsY',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Dishwasher with ProScrub<sup>&trade;</sup> Option | KitchenAid<sup>&reg;</sup>',
+						title: 'Slide-In Range with Steam Rack',
 						ctaTitle: 'Proscrub<sup>&trade;</sup>',
 						alt: 'test',
 						cta: 'Play Video',
-						desc: 'Skip the soaping, the soaking, and the pre-scrubbing. Send your pots and pans straight in to the dishwasher no matter the mess.',
+						desc: 'Make delicious, healthy meals with the Steam Rack in our Slide-In Range. This specialized rack allows you to add a precise amount of moisture so you can cook with steam and seal in more flavor.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Proscrub Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Proscrub Video"
 						}
 					}
 				]
@@ -163,58 +163,73 @@ export class AppDataService {
 					analytics: {
 						category: "@category",
 						action: "Clicked Choose Your Dish Style",
-						label: "See All Dish"
+						label: "See All Cooking"
 					}
 				},
 				products: [
 					{
-						image: "./public/images/products/window.png",
-                        title: "Dishwasher<br/>With Window",
+						image: "./public/images/products/Front-Control-Range.png",
+                        title: "Front Control Ranges",
                         alt: "test",
                         desc: "Introducing an innovative new design, this dishwasher with window is a great aesthetic enhancement to your kitchen and allows you see when your dishes are done so you can move on to what’s next.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000792/",
-                        id: "dish-with-window",
+                        id: "front-control-range",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
+							action: "Clicked Choose Your Cooking Style",
 							label: "Four-door",
 							learnMore: 'Learn More'
 						}
                     },
 					{
-						image: "./public/images/products/top-control.png",
-                        title: "Top Control",
+						image: "./public/images/products/Rear-Control-Range.png",
+                        title: "Rear Control Ranges",
                         alt: "test",
                         desc: "The controls are discreetly placed at the top of the dishwasher and remain hidden when the door is closed to provide a sleek and clean looking front. The sleek bar handle perfectly complements the design and provides easy access to open your dishwasher.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000265/",
-                        id: "fully-integrated",
+                        id: "rear-control-range",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
+							action: "Clicked Choose Your Cooking Style",
 							label: "Top Control Dish",
 							learnMore: 'Learn More'
 						}
                     },
 					{
-						image: "./public/images/products/front-control.png",
-                        title: "Front Control",
+						image: "./public/images/products/Double-Oven-Range.png",
+                        title: "Double Oven Ranges",
                         alt: "test",
                         desc: "The controls are located on the front and are easily accessible for use after you load your dishes. This model also comes with a pocket handle for a smoother finish and is great for smaller kitchens to allow for more space flexibility in front of the dishwasher.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000266/",
-                        id: "front-control",
+                        id: "double-oven-ranges",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
+							action: "Clicked Choose Your Cooking Style",
 							label: "Front Control Dish",
 							learnMore: 'Learn More'
 						}
                     },
 					{
+						image: "./public/images/products/Wall-Oven.png",
+                        title: "Wall Ovens",
+                        alt: "test",
+                        desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                        link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                        id: "wall-oven",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Panel Ready Dish",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
 						image: "./public/images/products/panel-ready.png",
-                        title: "Panel Ready",
+                        title: "Cooktops",
                         alt: "test",
                         desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
@@ -222,7 +237,52 @@ export class AppDataService {
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Panel Ready Dish",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/panel-ready.png",
+                        title: "Microwaves",
+                        alt: "test",
+                        desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                        link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                        id: "panel-ready",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Panel Ready Dish",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/panel-ready.png",
+                        title: "Warming Drawers",
+                        alt: "test",
+                        desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                        link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                        id: "panel-ready",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Panel Ready Dish",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/panel-ready.png",
+                        title: "Hoods",
+                        alt: "test",
+                        desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                        link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                        id: "panel-ready",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
 							label: "Panel Ready Dish",
 							learnMore: 'Learn More'
 						}
