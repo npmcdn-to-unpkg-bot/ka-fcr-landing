@@ -228,12 +228,12 @@ export class AppDataService {
 						}
                     },
 					{
-						image: "./public/images/products/panel-ready.png",
+						image: "./public/images/products/cooktop.png",
                         title: "Cooktops",
                         alt: "test",
                         desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
-                        id: "panel-ready",
+                        id: "cooktop",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
@@ -243,12 +243,12 @@ export class AppDataService {
 						}
                     },
 					{
-						image: "./public/images/products/panel-ready.png",
+						image: "./public/images/products/Microwave.png",
                         title: "Microwaves",
                         alt: "test",
                         desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
-                        id: "panel-ready",
+                        id: "microwave",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
@@ -258,12 +258,12 @@ export class AppDataService {
 						}
                     },
 					{
-						image: "./public/images/products/panel-ready.png",
+						image: "./public/images/products/Warming-Drawer.png",
                         title: "Warming Drawers",
                         alt: "test",
                         desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
-                        id: "panel-ready",
+                        id: "warming-drawer",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
@@ -273,12 +273,12 @@ export class AppDataService {
 						}
                     },
 					{
-						image: "./public/images/products/panel-ready.png",
+						image: "./public/images/products/Hood.png",
                         title: "Hoods",
                         alt: "test",
                         desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
                         link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
-                        id: "panel-ready",
+                        id: "hoods",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
