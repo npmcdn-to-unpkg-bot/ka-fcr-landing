@@ -1,0 +1,341 @@
+product-selector {
+    @media screen and (max-width: 1366px) {
+        margin-top: -30px !important;
+    }
+
+	width: 80%;
+	position: relative;
+    
+    h2{
+        font-size: 3em;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 800;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 1366px) {
+                font-size: 2em;
+                margin-top: 35px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-bottom: 0px;
+        }
+        @media screen and (max-width: 479px) {
+            font-size: 1.5em;
+        }
+    }
+    
+   #french-door, #side-by-side, #bottom-freezer, #under-counter, #built-in{
+        opacity: 0;
+    }
+    
+    product-slides {
+        display: block;
+        width: 100%;
+    }
+    .ka-dish-landing-product-slide{
+        position: absolute;
+        width: 943px;
+    }
+    product-slide {
+        height: 420px;
+        display: inline-block;
+        position: relative;
+        top: -160px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            position: absolute;
+            height: initial;
+            top: initial;
+            width: 100%;
+            left: 0;
+        }
+    }
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        product-slide:first-of-type {
+            position: relative;
+        }
+    }
+
+    > .row{
+        background-image: url('../../public/images/refer-select-shadow.png');
+        background-repeat: no-repeat;
+        background-position-y: 100px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            background-position-y: -30px;
+        }
+    }
+    
+    .rl-ka-lndng-fridge-title.mobile {
+        display: none;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 10px;
+            color: #000000!important;
+        }
+    }
+
+    .rl-ka-lndng-fridge-title{
+        position: absolute;
+        left: 490px;
+        top: 170px;
+        width: 340px;
+        font-weight: 300;
+        font-size: 32px;
+        color: #000000!important;
+        text-transform: uppercase;
+        opacity: 0;
+        line-height: 30px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            display: none;
+        }
+    }
+    
+    learn-more-button{
+        position: absolute;
+        left: 490px;
+        top: 325px;
+        width: 115px;
+        height: 30px;
+        opacity: 0;
+
+        p {
+            line-height: 30px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+        }
+    }
+    
+    .rl-ka-lndng-fridge{
+        left: 165px;
+        position: absolute;
+        opacity: 0;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            left: initial;
+            position: relative;
+            display: block;
+            top: 0;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .rl-ka-lndng-fridge img{
+        height: 370px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            height: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    
+    .rl-ka-lndng-fridge-desc{
+        position: absolute;
+        left: 490px;
+        top: 215px;
+        width: 300px;
+        font-size: 18.5px;
+        font-weight: 100;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-rendering: optimizeSpeed;
+        opacity: 0;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+            margin-bottom: 30px;
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+
+        @media screen and (max-width: 1366px) {
+           font-size: 18px;
+           line-height: 24px;
+        }
+    }
+    
+}
+
+product-selector-nav {
+    position: relative;
+    display: block;
+    top: 70px;
+
+    @media screen and (max-width: 479px) {
+        top: 50px;
+    }
+
+    .row {
+        position: relative;
+    }
+    
+    .ka-dish-landing-product,.see-all {
+        float: left;
+        width: 14.28571428571429%;
+        margin-right: 5%;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-right: 7px;
+        }
+
+        @media screen and (max-width: 769px) and (min-width: 479px) {
+            margin-right: 13.3px
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .ka-dish-landing-product{
+        font-size: 0.8em;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            width: 20.5%;
+        }
+
+        > img {
+            @include transition(0.2s);
+        }
+    }
+
+    .ka-dish-landing-product:not(.selected) {
+        > img {
+            opacity: 0.6;
+        }
+
+        .ka-dish-landing-button {
+            color: $selectorTextColor;
+        }
+    }
+
+    .ka-dish-landing-product:first-child {
+        margin-left: 4.5%;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-left: 6.3% !important;
+        }
+    }
+
+    .ka-dish-landing-button {
+        margin-top: 20px;
+        height: 38px;
+        display: table;
+        color: $selectorTextColor;
+        border: 2px solid $selectorBackgroundColor;
+        width: 100%;
+        @include transition(0.2s);
+
+        p {
+            width: 100%;
+            @include centered-table-cell;
+            line-height: 14px;
+            
+            @media(max-width: 479px) {font-size: 0.8em;}
+        }
+    }
+
+    .ka-dish-landing-product:hover {
+        > img {
+            opacity: 0.75;
+        }
+
+        div.ka-dish-landing-button {
+            background-color: $selectorBackgroundColor;
+            color: $selectorHighlightedTextColor;
+        }
+    }
+
+    .ka-dish-landing-product.selected {
+        > img {
+            opacity: 0.75 !important;
+        }
+        .ka-dish-landing-button {
+            background-color: $selectorBackgroundColor !important;
+            color: $selectorHighlightedTextColor !important;
+        }
+    }
+
+    .see-all {
+        width: 13%;
+        color: $selectorCTAColor;
+        border: 3px solid $selectorCTAColor;
+        text-transform: uppercase;
+        display: table;
+        padding: 0;
+        height: 206px;
+        margin-right: 0;
+        @include transition(0.2s);
+
+        p {
+            @include centered-table-cell;
+            @include transition(0.2s);
+        }
+        @media screen and (max-width: $mobileBreakpoint) {
+            clear: left;
+            width: 97%;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+
+    .see-all:hover {
+         p {
+            color: $selectorHighlightedTextColor;
+            background-color: $selectorBackgroundColor;
+         }
+    }
+}
+
+product-selector.fr {
+    .rl-ka-lndng-fridge-title {
+        width: 450px;
+    }
+
+    .rl-ka-lndng-fridge-title.mobile {
+        @media screen and (max-width: $mobileBreakpoint) {
+            width: 100%;
+        }
+    }
+
+    .rl-ka-lndng-fridge-desc {
+        width: 450px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            width: 100%;
+        }
+    }
+
+    product-selector-nav {
+        @media screen and (max-width: $mobileBreakpoint) {
+            div .ka-dish-landing-button p {
+                font-size: 0.6em;
+            }
+        }
+        @media screen and (max-width: 479px) {
+            top: 50px;
+        }
+    }
+
+    product-slides {
+        product-slide {
+            .rl-ka-lndng-fridge-title.mobile {
+                font-size: 18px;
+                line-height: 20px;
+            }
+        }
+    }
+}
