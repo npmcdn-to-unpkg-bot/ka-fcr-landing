@@ -14,7 +14,7 @@ export class AppDataService {
 		this.contents.en = {
 			masthead: {
 				enabled: true,
-				image: "./public/images/refer-landing-masthead.jpg",
+				image: "./public/images/fcr-landing-masthead.jpg",
 				alt: "test",
 				title: "Cooking"
 			},
@@ -128,7 +128,7 @@ export class AppDataService {
 						id: 'b5hsu0aa4mw',
 						thumb: './public/images/video-select-2.jpg',
 						title: 'KitchenAid<sup>&reg;</sup> Even-Heat<sup>&trade;</sup> True Convection Oven',
-						ctaTitle: 'Dynamic Wash Arms',
+						ctaTitle: 'Even Heat',
 						alt: 'test',
 						cta: 'Play Video',
 						desc: 'Produces flawless results. The unique bow-tie design and convection fan ensure the inside of the oven is heated to, and stays at, the perfect temperature.',
@@ -142,7 +142,7 @@ export class AppDataService {
 						id: 'OjrrwhNKwsY',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Slide-In Range with Steam Rack',
-						ctaTitle: 'Proscrub<sup>&trade;</sup>',
+						ctaTitle: 'Slide-In Steam Rack',
 						alt: 'test',
 						cta: 'Play Video',
 						desc: 'Make delicious, healthy meals with the Steam Rack in our Slide-In Range. This specialized rack allows you to add a precise amount of moisture so you can cook with steam and seal in more flavor.',
