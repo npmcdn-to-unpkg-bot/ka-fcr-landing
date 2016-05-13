@@ -190,11 +190,13 @@ product-selector-nav {
 
         /* @media screen and (max-width: $mobileBreakpoint) {
             margin-right: 7px;
-        }
+        }*/
 
-        @media screen and (max-width: 769px) and (min-width: 479px) {
-            margin-right: 13.3px
-        } */
+        @media screen and (max-width: 450px) {
+            float: left;
+            width: 23.8%;
+            margin: 0%;
+        } 
 
         img {
             width: 100%;

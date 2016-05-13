@@ -187,7 +187,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Front Control Ranges",
                                     alt: "test",
                                     desc: "Introducing an innovative new design, this dishwasher with window is a great aesthetic enhancement to your kitchen and allows you see when your dishes are done so you can move on to what’s next.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000792/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/-[KSGG700ESS]-2104711/KSGG700ESS/",
                                     id: "front-control-range",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -202,7 +202,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Rear Control Ranges",
                                     alt: "test",
                                     desc: "The controls are discreetly placed at the top of the dishwasher and remain hidden when the door is closed to provide a sleek and clean looking front. The sleek bar handle perfectly complements the design and provides easy access to open your dishwasher.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000265/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042/",
                                     id: "rear-control-range",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -217,7 +217,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Double Oven Ranges",
                                     alt: "test",
                                     desc: "The controls are located on the front and are easily accessible for use after you load your dishes. This model also comes with a pocket handle for a smoother finish and is great for smaller kitchens to allow for more space flexibility in front of the dishwasher.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+105000266/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -232,7 +232,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Wall Ovens",
                                     alt: "test",
                                     desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/wall-ovens-3/102310003/",
                                     id: "wall-oven",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -247,7 +247,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Cooktops",
                                     alt: "test",
                                     desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/cooktops-3/102310008/",
                                     id: "cooktop",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -262,7 +262,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Microwaves",
                                     alt: "test",
                                     desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "microwave",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -277,7 +277,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Warming Drawers",
                                     alt: "test",
                                     desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "warming-drawer",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -292,7 +292,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     title: "Hoods",
                                     alt: "test",
                                     desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
-                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "hoods",
                                     ctaText: "Learn More",
                                     analytics: {

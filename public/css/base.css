@@ -922,11 +922,12 @@ rl-ka-fcr-landing {
       margin: 2.5%;
       /* @media screen and (max-width: $mobileBreakpoint) {
             margin-right: 7px;
-        }
-
-        @media screen and (max-width: 769px) and (min-width: 479px) {
-            margin-right: 13.3px
-        } */ }
+        }*/ }
+      @media screen and (max-width: 450px) {
+        rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product, rl-ka-fcr-landing product-selector-nav .see-all {
+          float: left;
+          width: 23.8%;
+          margin: 0%; } }
       rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product img, rl-ka-fcr-landing product-selector-nav .see-all img {
         width: 100%; }
     rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product {
