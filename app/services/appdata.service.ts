@@ -38,7 +38,7 @@ export class AppDataService {
 						alt: "Buying Guide",
 						desc: "What to look for when you are buying",
 						cta: "Click Here",
-						link: "https://www.google.ca/webhp?hl=en#hl=en&q=placeholder",
+						link: "",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -52,7 +52,7 @@ export class AppDataService {
 						alt: "Ratings and reviews",
 						desc: "See what others are saying",
 						cta: "Click Here",
-						link: "http://www.kitchenaid.ca/en_CA/2_2_89/global_best-products.content.html#dishwashers",
+						link: "http://www.kitchenaid.ca/en_CA/2_2_89/global_best-products.content.html#ranges",
 						type: "star",
 						analytics: {
 							category: "@category",
@@ -141,11 +141,11 @@ export class AppDataService {
 					{
 						id: 'OjrrwhNKwsY',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Slide-In Range with Steam Rack',
-						ctaTitle: 'Slide-In Steam Rack',
+						title: 'Front Control Range with Steam Rack',
+						ctaTitle: 'Steam Rack',
 						alt: 'test',
 						cta: 'Play Video',
-						desc: 'Make delicious, healthy meals with the Steam Rack in our Slide-In Range. This specialized rack allows you to add a precise amount of moisture so you can cook with steam and seal in more flavor.',
+						desc: 'Make delicious, healthy meals with the Steam Rack in our Front Control Range. This specialized rack allows you to add a precise amount of moisture so you can cook with steam and seal in more flavor.',
 						analytics: {
 							category: "@category",
 							action: "Clicked Cooking-Designed to Inspire Media",
