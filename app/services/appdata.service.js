@@ -185,120 +185,120 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     image: "./public/images/products/Front-Control-Range.png",
                                     title: "Front Control Ranges",
-                                    alt: "test",
-                                    desc: "Introducing an innovative new design, this dishwasher with window is a great aesthetic enhancement to your kitchen and allows you see when your dishes are done so you can move on to what’s next.",
+                                    alt: "Front Control Ranges",
+                                    desc: "Ranges with controls on the front panel have a premium, built-in look to fit seamlessly between your countertop. The controls are on the front and there is no back panel, which allows you to showcase your backsplash. The front controls also provide convenient access so you don’t have to reach over the cooktop. The sides of a Front-Control range are finished, so it offers the flexibility of even placing it at the end of a countertop run. It has an oven and cooktop.  If you’re after a premium look, this style will likely appeal to you.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/-[KSGG700ESS]-2104711/KSGG700ESS/",
                                     id: "front-control-range",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Four-door",
+                                        label: "Front-Control-Ranges",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Rear-Control-Range.png",
                                     title: "Rear Control Ranges",
-                                    alt: "test",
-                                    desc: "The controls are discreetly placed at the top of the dishwasher and remain hidden when the door is closed to provide a sleek and clean looking front. The sleek bar handle perfectly complements the design and provides easy access to open your dishwasher.",
+                                    alt: "Rear Control Ranges",
+                                    desc: "Rear-Control ranges have a back panel and finished sides. This style is great for flexibility in placement as the range can fit between cabinets/countertop, at the end of a cabinet run or even stand alone. The oven and/or cooktop controls are located on the back panel. Rear-Control ranges can be found in all price points, from entry level to premium.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042/",
                                     id: "rear-control-range",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Top Control Dish",
+                                        label: "Rear-Control-Ranges",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Double-Oven-Range.png",
                                     title: "Double Oven Ranges",
-                                    alt: "test",
-                                    desc: "The controls are located on the front and are easily accessible for use after you load your dishes. This model also comes with a pocket handle for a smoother finish and is great for smaller kitchens to allow for more space flexibility in front of the dishwasher.",
+                                    alt: "Double Oven Ranges",
+                                    desc: "Double-Oven ranges come in various oven sizes: smaller top oven paired with a larger one on the bottom, the opposite combination, or two same-sized ovens. If you're considering a double oven, think about what you often cook and bake, how often, and how many people you cook for. Based on these considerations, using a double- oven may mean that you use the smaller oven for most of your cooking/baking and the larger one for holiday feasts. The best part: these ranges let you bake cookies in one oven while cooking a roast in the other!",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Front Control Dish",
+                                        label: "Double-Oven-Ranges",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Wall-Oven.png",
                                     title: "Wall Ovens",
-                                    alt: "test",
-                                    desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                                    alt: "Wall Ovens",
+                                    desc: "Wall Ovens are separate from the cooktop and are a Built-in Oven option. Wall Ovens offer homeowners more flexibility for their Kitchen layout. The wall oven is usually installed at chest level, so it's easy to reach heavy dishes and move them from oven to counter There are many variations of Wall ovens available to choose from; Single Wall Oven, Double Oven, Microwave Combination Oven, Built in Microwave oven.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/wall-ovens-3/102310003/",
                                     id: "wall-oven",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Panel Ready Dish",
+                                        label: "Wall-Ovens",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/cooktop.png",
                                     title: "Cooktops",
-                                    alt: "test",
-                                    desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                                    alt: "Cooktops",
+                                    desc: "A flat cooking surface with burners or elements, used for boiling, simmering and frying. It's built into a counter or island as a separate appliance. The technology choices are the same whether you're looking at a range cooktop or a built-in cooktop.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/cooktops-3/102310008/",
                                     id: "cooktop",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Panel Ready Dish",
+                                        label: "Cooktops",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Microwave.png",
                                     title: "Microwaves",
-                                    alt: "test",
-                                    desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                                    alt: "Microwaves",
+                                    desc: "Over-the-range microwave models install above your cooking area, whether a range or a cooktop, and have a built-in hood fan. Enhanced features are available on Over-the-range microwaves such as convection microwaves which use an interior fan and heating element to evenly circulate hot air over the food, resulting in toasty breads and browned meats.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "microwave",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Panel Ready Dish",
+                                        label: "Microwaves",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Warming-Drawer.png",
                                     title: "Warming Drawers",
-                                    alt: "test",
-                                    desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                                    alt: "Warming Drawers",
+                                    desc: "Warming drawers with low heat and temperature sensors, keep your food hot until it's time to serve. These are usually paired  with a Built-in Oven.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "warming-drawer",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Panel Ready Dish",
+                                        label: "Warming-Drawers",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
                                     image: "./public/images/products/Hood.png",
                                     title: "Hoods",
-                                    alt: "test",
-                                    desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.",
+                                    alt: "Hoods",
+                                    desc: "Range hoods offer kitchen ventilation with style. Configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many hoods offer lighting that illuminates your cooktop.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "hoods",
                                     ctaText: "Learn More",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Cooking Style",
-                                        label: "Panel Ready Dish",
+                                        label: "Hoods",
                                         learnMore: 'Learn More'
                                     }
                                 }
