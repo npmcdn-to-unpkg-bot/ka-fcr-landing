@@ -879,9 +879,9 @@ rl-ka-fcr-landing {
       left: 490px;
       top: 215px;
       width: 300px;
-      font-size: 18.5px;
+      font-size: 16px;
       font-weight: 100;
-      line-height: 24px;
+      line-height: 18px;
       letter-spacing: 1px;
       text-rendering: optimizeSpeed;
       opacity: 0; }
@@ -894,16 +894,18 @@ rl-ka-fcr-landing {
           text-align: center;
           margin: 0 auto;
           margin-bottom: 30px;
-          font-size: 14px !important;
-          line-height: 18px !important; } }
+          font-size: 12px !important;
+          line-height: 16px !important; } }
       @media screen and (max-width: 1366px) {
         rl-ka-fcr-landing product-selector .rl-ka-lndng-fridge-desc {
-          font-size: 18px;
-          line-height: 24px; } }
+          font-size: 16px;
+          line-height: 18px; } }
   rl-ka-fcr-landing product-selector-nav {
     position: relative;
     display: block;
     top: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
     /* .ka-dish-landing-product:first-child {
         margin-left: 4.5%;
 
