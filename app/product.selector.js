@@ -41,8 +41,8 @@ System.register(['angular2/core', './product.selector.slides', './product.select
                     this.slidesProducts = new Array();
                     for (var i in data.productselector.products) {
                         var product = data.productselector.products[i];
-                        this.selectorProducts.push(new products_model_1.ProductModel(product.image, product.title, product.desc, product.link, product.id, product.ctaText, product.alt, product.analytics));
-                        this.slidesProducts.push(new products_model_1.ProductModel(product.image, product.title, product.desc, product.link, product.id, product.ctaText, product.alt, {
+                        this.selectorProducts.push(new products_model_1.ProductModel(product.image, product.thumb, product.title, product.desc, product.link, product.id, product.ctaText, product.alt, product.analytics));
+                        this.slidesProducts.push(new products_model_1.ProductModel(product.image, product.thumb, product.title, product.desc, product.link, product.id, product.ctaText, product.alt, {
                             category: product.analytics.category,
                             action: product.analytics.action,
                             label: product.analytics.label + ' ' + product.analytics.learnMore

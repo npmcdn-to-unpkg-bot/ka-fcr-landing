@@ -7,7 +7,7 @@ import {AnalyticsServiceOn} from './analytics.directive'
     template: `
     	<div class="row {{!enabled ? 'hide' : ''}}">
 			<div class="ka-dish-landing-product {{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i = index" analyticsOn="click" analyticsCategory="{{product.analytics.category}}" analyticsAction="{{product.analytics.action}}" analyticsLabel="{{product.analytics.label}}" (click)="select(product)">
-				<img src="{{product.prodImage}}"/>
+				<img src="{{product.prodThumb}}"/>
 				<div class="ka-dish-landing-button"><p [innerHTML]="product.prodName"></p></div>
 			</div>
 			<!--  <a target="_blank" href="{{ctaLink}}" analyticsOn="click" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}">

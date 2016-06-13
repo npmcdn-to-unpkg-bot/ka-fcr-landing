@@ -39,6 +39,7 @@ export class ProductSelector {
             this.selectorProducts.push(
                 new ProductModel(
                     product.image,
+                    product.thumb,
                     product.title,
                     product.desc,
                     product.link,
@@ -52,6 +53,7 @@ export class ProductSelector {
             this.slidesProducts.push(
                 new ProductModel(
                     product.image,
+                    product.thumb,
                     product.title,
                     product.desc,
                     product.link,

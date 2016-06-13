@@ -169,6 +169,7 @@ export class AppDataService {
 				products: [
 					{
 						image: "./public/images/products/Front-Control-Range.png",
+						thumb: "./public/images/products/Front-Control-Range-sml.png",
                         title: "Front Control Ranges",
                         alt: "Front Control Ranges",
                         desc: "Up front controls give you easy access and a premium, built-in look that fits seamlessly into every kitchen. The finished sides look great at the end of the countertop run too. Looking to showcase that beautiful backsplash? With no back panel this range is definitely your best bet. Also available in commercial sizes.",
@@ -184,6 +185,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Rear-Control-Range.png",
+						thumb: "./public/images/products/Rear-Control-Range-sml.png",
                         title: "Rear Control Ranges",
                         alt: "Rear Control Ranges",
                         desc: "With oven controls on the back, this classic style offers stylish flexibility – it can fit between cabinets & countertops, at the very end of a cabinet run, or on its own.  Rear-Control ranges can be found across all price points, fitting nicely into any budget.",
@@ -199,6 +201,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Double-Oven-Range.png",
+						thumb: "./public/images/products/Double-Oven-Range-sml.png",
                         title: "Double Oven Ranges",
                         alt: "Double Oven Ranges",
                         desc: "When considering a Double-Oven range, there are a few options to choose from: smaller top oven with a larger one on the bottom, and visa versa, or two same-sized ovens. The small oven can be used for day-to-day cooking and the large one for holiday meal. Plus, you can bake and cook at the same time, the perfect pair for any milestone or family feast.",
@@ -214,6 +217,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Wall-Oven.png",
+						thumb: "./public/images/products/Wall-Oven-sml.png",
                         title: "Wall Ovens",
                         alt: "Wall Ovens",
                         desc: "Always entertaining? Built-in wall ovens offer a little more flexibility for kitchen layout. Usually installed at chest height, it makes heavy dishes easier to reach and transfer to the counter. Options include Single Oven, Double Oven, Microwave Combination and Built-In Microwave.",
@@ -229,6 +233,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/cooktop.png",
+						thumb: "./public/images/products/cooktop-sml.png",
                         title: "Cooktops",
                         alt: "Cooktops",
                         desc: "A flat cooking surface with burners or elements, used for boiling, simmering and frying. It's built into a counter or island as a separate appliance. The technology choices are the same whether you're looking at a range cooktop or a built-in cooktop.",
@@ -244,6 +249,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Microwave.png",
+						thumb: "./public/images/products/Microwave-sml.png",
                         title: "Microwaves",
                         alt: "Microwaves",
                         desc: "Over-the-range microwave models are installed above your cooking area with a built-in hood fan. Enhanced features are available, such as convection microwaves, which use an interior fan and separate heating element to evenly circulate hot air over the food, resulting in toasty breads and beautifully browned meats.",
@@ -259,6 +265,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Warming-Drawer.png",
+						thumb: "./public/images/products/Warming-Drawer-sml.png",
                         title: "Warming Drawers",
                         alt: "Warming Drawers",
                         desc: "Warming drawers with low heat and temperature sensors, keep your food hot until it's time to serve. These are usually paired  with a Built-in Oven.",
@@ -274,6 +281,7 @@ export class AppDataService {
                     },
 					{
 						image: "./public/images/products/Hood.png",
+						thumb: "./public/images/products/Hood-sml.png",
                         title: "Hoods",
                         alt: "Hoods",
                         desc: "Finally, kitchen ventilation with style. Range hoods configurations include under cabinet range hoods, island range hoods and wall mounted range hoods. Many of which offer lighting to illuminate your cooktop so you can easily see the masterpiece in the making.",
