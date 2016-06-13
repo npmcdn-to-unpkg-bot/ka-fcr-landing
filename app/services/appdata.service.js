@@ -219,7 +219,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/Double-Oven-Range-sml.png",
                                     title: "Double Oven Ranges",
                                     alt: "Double Oven Ranges",
-                                    desc: "When considering a Double-Oven range, there are a few options to choose from: smaller top oven with a larger one on the bottom, and visa versa, or two same-sized ovens. The small oven can be used for day-to-day cooking and the large one for holiday meal. Plus, you can bake and cook at the same time, the perfect pair for any milestone or family feast.",
+                                    desc: "When considering a Double-Oven range, there are a few options to choose from: smaller top oven with a larger one on the bottom, and vice versa, or two same-sized ovens. The small oven can be used for day-to-day cooking and the large one for holiday meal. Plus, you can bake and cook at the same time, the perfect pair for any milestone or family feast.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More",
@@ -281,7 +281,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     image: "./public/images/products/Warming-Drawer.png",
                                     thumb: "./public/images/products/Warming-Drawer-sml.png",
-                                    title: "Warming Drawers",
+                                    title: "Warming<br>Drawers",
                                     alt: "Warming Drawers",
                                     desc: "Warming drawers with low heat and temperature sensors, keep your food hot until it's time to serve. These are usually paired  with a Built-in Oven.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/microwaves-3/102310037/",

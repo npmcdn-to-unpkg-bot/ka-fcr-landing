@@ -8,8 +8,8 @@ import {RemoveHTML} from './pipes/remove.html.pipe'
     template: `
         <div id="{{fridgeId}}" class="rl-ka-lndng-side">
             <div class="rl-ka-lndng-fridge"><img class="{{fridge}}" src="{{fridge}}" alt="{{fridgeAlt}}" /></div>
-            <div class="rl-ka-lndng-fridge-title mobile">{{fridgeTitle | removeHTML}}</div>
-            <div class="rl-ka-lndng-fridge-title">{{fridgeTitle | removeHTML}}</div>
+            <div class="rl-ka-lndng-fridge-title mobile" [innerHTML]="fridgeTitle"></div>
+            <div class="rl-ka-lndng-fridge-title" [innerHTML]="fridgeTitle"></div>
             <div class="rl-ka-lndng-fridge-desc">{{fridgeDescription}}</div>
             <learn-more-button [analytics]="analytics" [link]="fridgeUrl" [text]="ctaText"></learn-more-button>
         </div>
