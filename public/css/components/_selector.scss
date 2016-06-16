@@ -2,7 +2,8 @@ product-selector {
     @media screen and (max-width: 1366px) {
         margin-top: -30px !important;
     }
-
+    -webkit-transition: all 1s;
+    transition: all 1s;
 	width: 80%;
 	position: relative;
     
@@ -32,25 +33,26 @@ product-selector {
     }
     
     product-slides {
-        display: block;
+        display: inline-block;
         width: 100%;
+       
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
     }
     .ka-dish-landing-product-slide{
-        position: absolute;
-        width: 943px;
+        position: relative;
     }
     product-slide {
-        height: 420px;
         display: inline-block;
         position: relative;
-        top: -160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-transition: all 1s;
+        transition: all 1s;
 
         @media screen and (max-width: $mobileBreakpoint) {
-            position: absolute;
-            height: initial;
-            top: initial;
-            width: 100%;
-            left: 0;
+            position: relative;
         }
     }
 
@@ -65,9 +67,35 @@ product-selector {
         background-repeat: no-repeat;
         background-position-y: 100px;
 
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
         @media screen and (max-width: $mobileBreakpoint) {
             background-position-y: -30px;
         }
+    }
+
+    .rl-ka-lndng-prodLeft {
+        width: 50%;
+        position: relative;
+        float: left;
+        text-align: right;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+    }
+
+    .rl-ka-lndng-prodRight {
+        width: 35%;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+    }
+
+    .rl-ka-lndng-side{
+        display: none;
+        -webkit-transition: all 1s;
+        transition: all 1s;
     }
     
     .rl-ka-lndng-fridge-title.mobile {
@@ -78,23 +106,20 @@ product-selector {
         @media screen and (max-width: $mobileBreakpoint) {
             @include mobile-block-element;
             display: inline-block;
-            width: 100%;
             margin-bottom: 10px;
             color: #000000!important;
         }
     }
 
     .rl-ka-lndng-fridge-title{
-        position: absolute;
-        left: 490px;
-        top: 170px;
-        width: 340px;
+        position: relative;
         font-weight: 300;
         font-size: 32px;
         color: #000000!important;
         text-transform: uppercase;
         opacity: 0;
         line-height: 30px;
+        padding-bottom: 20px;
 
         @media screen and (max-width: $mobileBreakpoint) {
             display: none;
@@ -102,9 +127,7 @@ product-selector {
     }
     
     learn-more-button{
-        position: absolute;
-        left: 490px;
-        top: 325px;
+        position: relative;
         width: 115px;
         height: 30px;
         opacity: 0;
@@ -119,40 +142,37 @@ product-selector {
     }
     
     .rl-ka-lndng-fridge{
-        left: 165px;
-        position: absolute;
+        position: relative;
         opacity: 0;
 
         @media screen and (max-width: $mobileBreakpoint) {
             left: initial;
             position: relative;
-            display: block;
+            display: inline-block;
             top: 0;
             margin-bottom: 20px;
         }
     }
     
     .rl-ka-lndng-fridge img{
-        height: 370px;
+        width: 350px;
 
         @media screen and (max-width: $mobileBreakpoint) {
             height: 200px;
-            display: block;
+            display: inline-block;
             margin: 0 auto;
         }
     }
     
     .rl-ka-lndng-fridge-desc{
-        position: absolute;
-        left: 490px;
-        top: 215px;
-        width: 300px;
+        position: relative;
         font-size: 18px;
         font-weight: 100;
         line-height: 24px;
         letter-spacing: 1px;
         text-rendering: optimizeSpeed;
         opacity: 0;
+        padding-bottom: 20px;
 
         @media screen and (max-width: $mobileBreakpoint) {
             @include mobile-block-element;
@@ -171,13 +191,13 @@ product-selector {
 
 product-selector-nav {
     position: relative;
-    display: block;
-    top: 70px;
+    display: inline-block;
     padding-left: 10%;
     padding-right: 10%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
 
     @media screen and (max-width: 479px) {
-        top: 50px;
     }
 
     .row {
@@ -331,7 +351,6 @@ product-selector.fr {
             }
         }
         @media screen and (max-width: 479px) {
-            top: 50px;
         }
     }
 
