@@ -5,7 +5,10 @@ banner {
 		width: 100%;
 	}
 
+
 	learn-more-button {
+		position: absolute;
+    	top: 35%;
 		right: 7%;
         width: 15%;
         @media screen and (max-width: 685px) {

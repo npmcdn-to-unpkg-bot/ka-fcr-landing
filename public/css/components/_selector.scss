@@ -119,7 +119,7 @@ product-selector {
         text-transform: uppercase;
         opacity: 0;
         line-height: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
 
         @media screen and (max-width: $mobileBreakpoint) {
             display: none;
@@ -192,6 +192,7 @@ product-selector {
 product-selector-nav {
     position: relative;
     display: inline-block;
+    padding-top: 7.5%;
     padding-left: 10%;
     padding-right: 10%;
     -webkit-transition: all 1s;
