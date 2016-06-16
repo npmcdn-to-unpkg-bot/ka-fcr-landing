@@ -219,7 +219,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/Double-Oven-Range-sml.png",
                                     title: "Double Oven Ranges",
                                     alt: "Double Oven Ranges",
-                                    desc: "Double-Oven Ranges offers versatility. The small oven can be used for day-to-day cooking and the large oven for holiday meals. Plus, you can bake and cook at the same time, the perfect pair for any feast.",
+                                    desc: "Double-Oven Ranges offer versatility. The small oven can be used for day-to-day cooking and the large oven for holiday meals. Plus, you can bake and cook at the same time, the perfect pair for any feast.",
                                     link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042+10000151/",
                                     id: "double-oven-ranges",
                                     ctaText: "Learn More",
