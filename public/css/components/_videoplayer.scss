@@ -191,7 +191,7 @@ videoplayer-selector {
 
 
 videoplayer.fr {
-	ul li:nth-child(2) {
+	ul li:nth-child(2), ul li:nth-child(3) {
 		videoplayer-selector {
 			.ka-dish-landing-videoplayer-title {
 				line-height: 35px;
@@ -201,6 +201,17 @@ videoplayer.fr {
 		        	font-size: 0.8em;
 		        	line-height: 15px;
 		        	margin-top: -10px;
+		        }
+			}
+		}
+	}
+
+	ul li:nth-child(3) {
+		videoplayer-selector {
+			.ka-dish-landing-videoplayer-title {
+				margin-top: -87px;
+				@media screen and (max-width: $mobileBreakpoint) {
+		        	margin-top: -18px;
 		        }
 			}
 		}

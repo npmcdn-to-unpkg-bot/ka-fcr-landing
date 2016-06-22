@@ -82,6 +82,11 @@ product-selector {
         text-align: right;
         -webkit-transition: all 1s;
         transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            float: none;
+            width: 100%
+        }
     }
 
     .rl-ka-lndng-prodRight {
@@ -90,6 +95,11 @@ product-selector {
         float: left;
         -webkit-transition: all 1s;
         transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            float: none;
+            width: 100%
+        }
     }
 
     .rl-ka-lndng-side{
@@ -108,6 +118,7 @@ product-selector {
             display: inline-block;
             margin-bottom: 10px;
             color: #000000!important;
+            width: 100%;
         }
     }
 
@@ -149,6 +160,7 @@ product-selector {
             left: initial;
             position: relative;
             display: inline-block;
+            width: 100%;
             top: 0;
             margin-bottom: 20px;
         }
@@ -159,8 +171,9 @@ product-selector {
 
         @media screen and (max-width: $mobileBreakpoint) {
             height: 200px;
-            display: inline-block;
-            margin: 0 auto;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: initial;
         }
     }
     
@@ -176,7 +189,6 @@ product-selector {
 
         @media screen and (max-width: $mobileBreakpoint) {
             @include mobile-block-element;
-            margin-bottom: 30px;
             font-size: 12px !important;
             line-height: 16px !important;
         }
@@ -271,6 +283,7 @@ product-selector-nav {
             line-height: 14px;
             
             @media(max-width: 479px) {font-size: 0.8em;}
+
         }
     }
 
@@ -349,6 +362,7 @@ product-selector.fr {
         @media screen and (max-width: $mobileBreakpoint) {
             div .ka-dish-landing-button p {
                 font-size: 0.6em;
+                line-height: 11px;
             }
         }
         @media screen and (max-width: 479px) {

@@ -38,7 +38,7 @@ export class AppDataService {
 						alt: "Buying Guide",
 						desc: "What to look for when you are buying",
 						cta: "Click Here",
-						link: "",
+						link: "#",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -302,19 +302,19 @@ export class AppDataService {
 		this.contents.fr = {
 			masthead: {
 				enabled: true,
-				image: "./public/images/refer-landing-masthead-fr.jpg",
-				alt: "test",
-				title: "Lave-vaisselle"
+				image: "./public/images/fcr-landing-masthead.jpg",
+				alt: "Cuisine",
+				title: "Cuisine"
 			},
 			banner: {
 				enabled: true,
 				link: 'http://www.kitchenaid.ca/fr_CA/new/',
-				image: './public/images/banner.jpg',
+				image: './public/images/banner_fr.jpg',
 				ctaText: 'En savoir plus',
 				analytics: {
 					category: "@category",
-					action: "Clicked Dish-Footer Banner",
-					label: "VBL-Learn More"
+					action: "Clicked Cooking Resources",
+					label: "Cooking Buying Guide"
 				}
 			},
 			features: {
@@ -326,7 +326,7 @@ export class AppDataService {
 						alt: "Guide D’achat",
 						desc: "Éléments à considérer lorsque vous magasinez",
 						cta: "Cliquez ici",
-						link: "https://www.google.ca/webhp?hl=en#hl=en&q=placeholder",
+						link: "#",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -344,22 +344,22 @@ export class AppDataService {
 						type: "star",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Ratings & Reviews"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Ratings & Reviews"
 						}
 					},
 					{
 						image: "./public/images/refer-landing-mag-glass.png",
-						title: "Trouver Mon Kitchenaid",
-						alt: "Trouver Mon Kitchenaid",
-						desc: "Vous avez besoin d'aide pour trouver le lave-vaisselle qui vous convient?",
+						title: "Trouver Mon Électroménager",
+						alt: "Trouver Mon Électroménager",
+						desc: "Vous avez besoin d'aide pour trouver votre électroménager de cuisine?",
 						cta: "Cliquez ici",
 						link: "http://trouvermon.kitchenaid.ca/#/question/Appliance",
 						type: "magnifier",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Find Your KAD"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Find Your KAD"
 						}
 					}
 				]
@@ -369,27 +369,27 @@ export class AppDataService {
 				title: "Plus de fonctions fraîcheur",
 				features: [
 					{
-						title: "Système de lavage à l'eau propre",
+						title: "Tiroir de cuisson",
 						image: "./public/images/more-features-1.jpg",
 						link: false,
 						alt: "test",
-						text: "Filtre continuellement l'eau de lavage pour des résultats impeccables. Par ailleurs, il n'est plus nécessaire de retirer et nettoyer le filtre grâce à sa conception innovante.",
+						text: "Ce compartiment séparé vous offre davantage d'options de cuisson, vous pouvez ainsi garder vos plats au chaud, faire mijoter ou bien cuire jusqu'à une température de 450 degrés.",
 						cta: ""
 					},
 					{
-						title: "Gicleur pour bouteilles",
+						title: "Sonde sans fil",
 						image: "./public/images/more-features-2.jpg",
 						link: false,
 						alt: "test",
-						text: "Les buses spécifiques et réglables sont conçues pour les verres hauts et les bouteilles et procurent une pulvérisation puissante dans les endroits difficiles à atteindre.",
+						text: "Elle vous indique lorsque la température de cuisson voulue est atteinte. Vous pouvez ainsi vous éloigner du four sans perdre le contrôle.",
 						cta: ""
 					},
 					{
-						title: "Système perfectionné ProDry<sup>&trade;</sup>",
+						title: "Grilles coulissantes sur glissières  SatinGlide<sup>&trade;</sup>",
 						image: "./public/images/more-features-3.jpg",
 						link: false,
 						alt: "test",
-						text: "La meilleure performance de séchage sans agent de rinçage, grâce à un système innovant qui élimine l'humidité de la cuve et permet d'obtenir des assiettes parfaitement sèches à la fin de chaque programme.",
+						text: "Un glissement en douceur permet un chargement et déchargement convivial des plats. La grille comprend aussi une poignée ergonomique, vous pouvez ainsi utiliser en toute confiance des plats plus grands ou plus lourds.",
 						cta: ""
 					}
 				]
@@ -401,117 +401,185 @@ export class AppDataService {
 					{
 						id: '1AZPb80TNdc',
 						thumb: './public/images/video-select-1.jpg',
-						title: 'A Revolutionary Mark On A Revolutionary New Line | The KitchenAid<sup>&reg;</sup> Medallion(fr)',
+						title: 'Un Emblème Révolutionnaire Pour Une Nouvelle Gamme Révolutionnaire',
 						ctaTitle: 'Conception',
 						alt: 'test',
 						cta: 'Voir la video',
-						desc: 'Voici le médaillon KitchenAid®, notre emblème de finition présent sur tous nos nouveaux électroménagers révolutionnaires, qu\'il s\'agisse de réfrigérateurs, fours encastrés, lave-vaisselle, fours à micro-ondes ou cuisinières. C\'est une marque qui indique que vous cuisinez avec une série d\'électroménagers de gamme supérieure, inspirés par des chefs.',
+						desc: 'Voici le médaillon KitchenAid®, le sceau de finition emblématique de tous no nouveaux réfrigérateurs, fours muraux, lave-vaisselle, fours à micro-ondes et cuisinières révolutionnaires. Ce symbole vous indique que vous cuisinez avec des électroménagers de qualité supérieure inspirés par des chefs.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Design Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Design Video"
 						}
 					},
 					{
 						id: 'Jnosm33VWtE',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Bras Gicleurs Dynamiques Révolutionnaires | KitchenAid<sup>&reg;</sup>',
-						ctaTitle: 'Bras Gicleurs Dynamiques',
+						title: 'Four à Convection Véritable Even-Heat&trade; de KitchenAid&restrict;',
+						ctaTitle: 'Chaleur Uniforme',
 						alt: 'test',
 						cta: 'Voir la video',
-						desc: 'Découvrez notre nouvelle gamme de lave-vaisselle dotés des bras gicleurs dynamiques révolutionnaires. Ils projettent de l\'eau dans toutes les directions, offrant un nettoyage efficace au moindre recoin de votre vaisselle.Voici donc un souci de moins et plus de temps pour démarrer votre prochaine création culinaire.',
+						desc: 'Procure des résultats sans faille. La conception unique en nœud papillon et le ventilateur à convection assurent que l\'intérieur du four chauffe et demeure à la température idéale.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Dynamic Wash Arms Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Dynamic Wash Arms Video"
 						}
 					},
 					{
 						id: 'wwpCbQn2s4c',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Dishwasher with ProScrub<sup>&trade;</sup> Option | KitchenAid<sup>&reg;</sup>(fr)',
-						ctaTitle: 'Proscrub<sup>&trade;</sup>',
+						title: 'Commandes Frontales avec Bac Pour Cuisson à Vapeur',
+						ctaTitle: 'Grille Pour Cuisson à Vapeur',
 						alt: 'test',
 						cta: 'Voir la video',
-						desc: 'Plus besoin de prélaver, faire tremper ni récurer. Placez vos casseroles et poêles directement dans le lave-vaisselle, peu importe leur niveau de saleté.',
+						desc: 'Réalisez des repas délicieux et sains grâce au bac pour cuisson à vapeur de notre cuisinière à commandes frontales. Ce bac spécial vous permet de rajouter un niveau précis d\'humidité, pour cuire à la vapeur et sceller les saveurs.',
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish-Designed to Inspire Media",
-							label: "Dish Proscrub Video"
+							action: "Clicked Cooking-Designed to Inspire Media",
+							label: "Cooking Proscrub Video"
 						}
 					}
 				]
 			},
 			productselector: {
 				enabled: true,
-				title: 'Choisissez votre style',
+				title: 'Choose your style',
 				nav: {
-					text: 'Voir tout',
-					link: 'http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/refrigerators-3/102310048/',
+					text: 'See All',
+					link: 'http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/refrigerators-3/102310048/',
 					analytics: {
 						category: "@category",
 						action: "Clicked Choose Your Dish Style",
-						label: "See All Dish"
+						label: "See All Cooking"
 					}
 				},
 				products: [
 					{
-						image: "./public/images/products/window.png",
-                        title: "Dishwasher<br/>With Window(fr)",
-                        alt: "test",
-                        desc: "Introducing an innovative new design, this dishwasher with window is a great aesthetic enhancement to your kitchen and allows you see when your dishes are done so you can move on to what’s next.(fr)",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/dishwashers-3/102310014+105000792/",
-                        id: "dish-with-window",
-                        ctaText: "En savoir plus",
+						image: "./public/images/products/Front-Control-Range.png",
+						thumb: "./public/images/products/Front-Control-Range-sml.png",
+                        title: "Cuisinières à Commandes Frontales",
+                        alt: "Front Control Ranges",
+                        desc: "Les commandes frontales sont faciles d'accès, et grâce aux parois finies, ces modèles s'agencent harmonieusement à toute cuisine. Sans panneau arrière, ils mettent en valeur  le dosseret de votre cuisine. Ces cuisinières sont offertes en modèle à induction, au gaz, électrique, bicombustible et commercial.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+10000152/",
+                        id: "front-control-range",
+                        ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
-							label: "Four-door",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Front-Control-Ranges",
 							learnMore: 'Learn More'
 						}
                     },
 					{
-						image: "./public/images/products/top-control.png",
-                        title: "Fully Integrated(fr)",
-                        alt: "test",
-                        desc: "The controls are discreetly placed at the top of the dishwasher and remain hidden when the door is closed to provide a sleek and clean looking front. The sleek bar handle perfectly complements the design and provides easy access to open your dishwasher.(fr)",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/dishwashers-3/102310014+105000265/",
-                        id: "fully-integrated",
-                        ctaText: "En savoir plus",
+						image: "./public/images/products/Rear-Control-Range.png",
+						thumb: "./public/images/products/Rear-Control-Range-sml.png",
+                        title: "Cuisinières à Commandes Arrière",
+                        alt: "Cuisinières à Commandes Arrière",
+                        desc: "Ce style classique offre une grande polyvalence, avec des commandes sur le panneau arrière. Ces cuisinières peuvent être installées entre les comptoirs, au bout d'une armoire ou séparément. Elles sont offertes à des prix variés, pour convenir à tous les budgets.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966120/",
+                        id: "rear-control-range",
+                        ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
-							label: "Fully Integrated Dish",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Rear-Control-Ranges",
 							learnMore: 'Learn More'
 						}
                     },
 					{
-						image: "./public/images/products/front-control.png",
-                        title: "Front Control(fr)",
-                        alt: "test",
-                        desc: "The controls are located on the front and are easily accessible for use after you load your dishes. This model also comes with a pocket handle for a smoother finish and is great for smaller kitchens to allow for more space flexibility in front of the dishwasher.(fr)",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/dishwashers-3/102310014+105000266/",
-                        id: "front-control",
-                        ctaText: "En savoir plus",
+						image: "./public/images/products/Double-Oven-Range.png",
+						thumb: "./public/images/products/Double-Oven-Range-sml.png",
+                        title: "Cuisinières à Four Double",
+                        alt: "Cuisinières à Four Double",
+                        desc: "Les cuisinières à four double offrent une grande polyvalence. Le petit four peut être utilisé pour les repas de tous les jours et le grand four pour les repas de fête. Vous pouvez aussi cuire des pâtisseries et faire rôtir en même temps, le duo idéal pour tout festin.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+10000151/",
+                        id: "double-oven-ranges",
+                        ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
-							label: "Front Control Dish",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Double-Oven-Ranges",
 							learnMore: 'Learn More'
 						}
                     },
 					{
-						image: "./public/images/products/panel-ready.png",
-                        title: "Panel Ready(fr)",
-                        alt: "test",
-                        desc: "The premium look to go with your dream kitchen. Custom panel-ready dishwashers have an unfinished door, so you can seamlessly match the custom panel to your cabinetry to give your kitchen a stylish and coordinated look.(fr)",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/dishwashers-3/102310014+4294967137/",
-                        id: "panel-ready",
-                        ctaText: "En savoir plus",
+						image: "./public/images/products/Wall-Oven.png",
+						thumb: "./public/images/products/Wall-Oven-sml.png",
+                        title: "Fours<br/>Muraux",
+                        alt: "Fours Muraux",
+                        desc: "Les fours muraux encastrés offrent une grande polyvalence dans le choix de disposition de cuisine. Ils sont généralement situés à hauteur de poitrine, les plats lourds sont ainsi faciles à prendre et à transférer sur le comptoir. Choix variés : four mural simple, double, ou combiné avec un four à micro-ondes.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/wall-ovens-3/102310003/",
+                        id: "wall-oven",
+                        ctaText: "Learn More",
                         analytics: {
 							category: "@category",
-							action: "Clicked Choose Your Dish Style",
-							label: "Panel Ready Dish",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Wall-Ovens",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/cooktop.png",
+						thumb: "./public/images/products/cooktop-sml.png",
+                        title: "Tables de Cuisson",
+                        alt: "Tables de Cuisson",
+                        desc: "Les tables de cuisson vous permettent de faire bouillir, mijoter et frire en ajoutant une touche d’élégance à votre cuisine. Elles peuvent être installées sur un comptoir ou un îlot et sont au gaz, électriques ou à induction.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/cooktops-3/102310008/",
+                        id: "cooktop",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Cooktops",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/Microwave.png",
+						thumb: "./public/images/products/Microwave-sml.png",
+                        title: "Four à Micro-ondes",
+                        alt: "Four à Micro-ondes",
+                        desc: "Le four à micro-ondes à convection fait circuler l'air chaud uniformément autour des aliments. Choix variés : fours à micro-ondes encastrés, à hotte intégrée et de comptoir.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/microwaves-3/102310037/",
+                        id: "microwave",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Microwaves",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/Warming-Drawer.png",
+						thumb: "./public/images/products/Warming-Drawer-sml.png",
+                        title: "Tiroirs-Réchauds",
+                        alt: "Tiroirs-Réchauds",
+                        desc: "Allant généralement de pair avec des fours encastrés, les tiroirs-réchauds sont dotés de capteurs de température et procurent une chaleur basse, afin de conserver vos aliments au chaud jusqu'au moment de servir.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/warming-drawers-3/102310057/",
+                        id: "warming-drawer",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Warming-Drawers",
+							learnMore: 'Learn More'
+						}
+                    },
+					{
+						image: "./public/images/products/Hood.png",
+						thumb: "./public/images/products/Hood-sml.png",
+                        title: "Hottes",
+                        alt: "Hottes",
+                        desc: "La ventilation de cuisine est enfin offerte en style élégant. De nombreux modèles sont munis d’un éclairage, vous pouvez donc facilement surveiller le progrès de votre cuisson. Choix variés : hotte sous armoire, montée sur îlot ou murale.",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/hoods-and-vents-3/102310029/",
+                        id: "hoods",
+                        ctaText: "Learn More",
+                        analytics: {
+							category: "@category",
+							action: "Clicked Choose Your Cooking Style",
+							label: "Hoods",
 							learnMore: 'Learn More'
 						}
                     }

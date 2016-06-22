@@ -1,4 +1,4 @@
-System.register(['angular2/core', './logger.service'], function(exports_1, context_1) {
+System.register(['angular2/core', './logger.service.js'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -29,14 +29,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.en = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/fcr-landing-masthead.jpg",
+                            image: "/images/ka-fcr-landing/fcr-landing-masthead.jpg",
                             alt: "test",
                             title: "Cooking"
                         },
                         banner: {
                             enabled: true,
                             link: 'http://www.kitchenaid.ca/en_CA/new/',
-                            image: './public/images/banner.jpg',
+                            image: '/images/ka-fcr-landing/banner.jpg',
                             ctaText: 'Learn More',
                             analytics: {
                                 category: "@category",
@@ -48,7 +48,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             enabled: true,
                             features: [
                                 {
-                                    image: "./public/images/refer-landing-shopping-cart.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-shopping-cart.png",
                                     title: "Buying Guide",
                                     alt: "Buying Guide",
                                     desc: "What to look for when you are buying",
@@ -62,7 +62,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-star.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-star.png",
                                     title: "Ratings & Reviews",
                                     alt: "Ratings and reviews",
                                     desc: "See what others are saying",
@@ -76,7 +76,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-mag-glass.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-mag-glass.png",
                                     title: "Find Your KitchenAid",
                                     alt: "Find your KitchenAid",
                                     desc: "Need help finding your cooking appliances?",
@@ -97,7 +97,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             features: [
                                 {
                                     title: "Baking Drawer",
-                                    image: "./public/images/more-features-1.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-1.jpg",
                                     link: false,
                                     alt: "test",
                                     text: "Separate compartments give you even more cooking options so you can keep dishes warm, slow-cook or bake at temperatures up to 450 degrees.",
@@ -105,7 +105,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "Wireless Probe",
-                                    image: "./public/images/more-features-2.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-2.jpg",
                                     link: false,
                                     alt: "Refrigerator interior with assorted foods",
                                     text: "Alerts you when desired food temperatures have been reached so you can walk away from the oven without walking away from control.",
@@ -113,7 +113,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "SatinGlide<sup>&trade;</sup> Roll-Out Extension Racks",
-                                    image: "./public/images/more-features-3.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-3.jpg",
                                     link: false,
                                     alt: "Opened bottom freezer",
                                     text: "Allows easy roll out for loading and unloading, and features an easy-grip handle, so you can confidently cook with large or heavy dishes.",
@@ -127,7 +127,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             videos: [
                                 {
                                     id: '1AZPb80TNdc',
-                                    thumb: './public/images/video-select-1.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-1.jpg',
                                     title: 'A Revolutionary Mark On A Revolutionary New Line | The KitchenAid<sup>&reg;</sup> Medallion',
                                     ctaTitle: 'Design',
                                     alt: 'test',
@@ -141,7 +141,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     id: 'b5hsu0aa4mw',
-                                    thumb: './public/images/video-select-2.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-2.jpg',
                                     title: 'KitchenAid<sup>&reg;</sup> Even-Heat<sup>&trade;</sup> True Convection Oven',
                                     ctaTitle: 'Even Heat',
                                     alt: 'test',
@@ -155,7 +155,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     id: 'OjrrwhNKwsY',
-                                    thumb: './public/images/video-select-3.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-3.jpg',
                                     title: 'Front Control Range with Steam Rack',
                                     ctaTitle: 'Steam Rack',
                                     alt: 'test',
@@ -183,8 +183,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/Front-Control-Range.png",
-                                    thumb: "./public/images/products/Front-Control-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Front-Control-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Front-Control-Range-sml.png",
                                     title: "Front Control Ranges",
                                     alt: "Front Control Ranges",
                                     desc: "Up front controls give you easy access that fits seamlessly with finished sides. This range has no back panel so you can showcase a beautiful backsplash. Also available in Induction, Gas, Electric, Dual Fuel and Commercial sizes.",
@@ -199,8 +199,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Rear-Control-Range.png",
-                                    thumb: "./public/images/products/Rear-Control-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Rear-Control-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Rear-Control-Range-sml.png",
                                     title: "Rear Control Ranges",
                                     alt: "Rear Control Ranges",
                                     desc: "With temperature controls on the back, this classic style offers stylish flexibility. It can fit between countertops, at the end of a cabinet, or on its own. These can be found across many price points, fitting nicely into any budget.",
@@ -215,8 +215,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Double-Oven-Range.png",
-                                    thumb: "./public/images/products/Double-Oven-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Double-Oven-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Double-Oven-Range-sml.png",
                                     title: "Double Oven Ranges",
                                     alt: "Double Oven Ranges",
                                     desc: "Double-Oven Ranges offer versatility. The small oven can be used for day-to-day cooking and the large oven for holiday meals. Plus, you can bake and cook at the same time, the perfect pair for any feast.",
@@ -231,8 +231,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Wall-Oven.png",
-                                    thumb: "./public/images/products/Wall-Oven-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Wall-Oven.png",
+                                    thumb: "/images/ka-fcr-landing/products/Wall-Oven-sml.png",
                                     title: "Wall<br>Ovens",
                                     alt: "Wall Ovens",
                                     desc: "Built-in wall ovens offer more flexibility for kitchen layout. Usually installed at chest height, it makes heavy dishes easier to reach and transfer to the counter. Options include Single Oven, Double Oven, and Microwave Combination.",
@@ -247,8 +247,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/cooktop.png",
-                                    thumb: "./public/images/products/cooktop-sml.png",
+                                    image: "/images/ka-fcr-landing/products/cooktop.png",
+                                    thumb: "/images/ka-fcr-landing/products/cooktop-sml.png",
                                     title: "Cooktops",
                                     alt: "Cooktops",
                                     desc: "Cooktops are capable of boiling, simmering and frying while laying flat and looking sleek in every kitchen. These can be built into a counter or an island. Available in Gas, Electric and Induction.",
@@ -263,8 +263,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Microwave.png",
-                                    thumb: "./public/images/products/Microwave-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Microwave.png",
+                                    thumb: "/images/ka-fcr-landing/products/Microwave-sml.png",
                                     title: "Microwaves",
                                     alt: "Microwaves",
                                     desc: "For toasty breads and beautifully browned meats, the Convection Microwave feature evenly circulates hot air over the food. Available in Built-in Microwaves, Over-the-range Microwaves, and Countertops.",
@@ -279,8 +279,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Warming-Drawer.png",
-                                    thumb: "./public/images/products/Warming-Drawer-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Warming-Drawer.png",
+                                    thumb: "/images/ka-fcr-landing/products/Warming-Drawer-sml.png",
                                     title: "Warming<br>Drawers",
                                     alt: "Warming Drawers",
                                     desc: "Usually paired with Built-in ovens, Warming Drawers come with low heat and temperature sensors, allowing you to keep your food hot until it’s time to serve.",
@@ -295,8 +295,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Hood.png",
-                                    thumb: "./public/images/products/Hood-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Hood.png",
+                                    thumb: "/images/ka-fcr-landing/products/Hood-sml.png",
                                     title: "Hoods<br>and Vents",
                                     alt: "Hoods",
                                     desc: "Finally, kitchen ventilation with style. Many styles offer lighting so you can easily see the masterpiece in the making. Available in Under Cabinet, Island, and Wall Mounted range hoods.",
@@ -316,14 +316,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.fr = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/fcr-landing-masthead.jpg",
+                            image: "/images/ka-fcr-landing/fcr-landing-masthead.jpg",
                             alt: "Cuisine",
                             title: "Cuisine"
                         },
                         banner: {
                             enabled: true,
                             link: 'http://www.kitchenaid.ca/fr_CA/new/',
-                            image: './public/images/banner_fr.jpg',
+                            image: '/images/ka-fcr-landing/banner_fr.jpg',
                             ctaText: 'En savoir plus',
                             analytics: {
                                 category: "@category",
@@ -335,7 +335,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             enabled: true,
                             features: [
                                 {
-                                    image: "./public/images/refer-landing-shopping-cart.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-shopping-cart.png",
                                     title: "Guide D’achat",
                                     alt: "Guide D’achat",
                                     desc: "Éléments à considérer lorsque vous magasinez",
@@ -349,7 +349,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-star.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-star.png",
                                     title: "Évaluation et Commentaires",
                                     alt: "Évaluation et Commentaires",
                                     desc: "Découvrez ce que nos clients en disent",
@@ -363,7 +363,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/refer-landing-mag-glass.png",
+                                    image: "/images/ka-fcr-landing/refer-landing-mag-glass.png",
                                     title: "Trouver Mon Électroménager",
                                     alt: "Trouver Mon Électroménager",
                                     desc: "Vous avez besoin d'aide pour trouver votre électroménager de cuisine?",
@@ -384,7 +384,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             features: [
                                 {
                                     title: "Tiroir de cuisson",
-                                    image: "./public/images/more-features-1.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-1.jpg",
                                     link: false,
                                     alt: "test",
                                     text: "Ce compartiment séparé vous offre davantage d'options de cuisson, vous pouvez ainsi garder vos plats au chaud, faire mijoter ou bien cuire jusqu'à une température de 450 degrés.",
@@ -392,7 +392,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "Sonde sans fil",
-                                    image: "./public/images/more-features-2.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-2.jpg",
                                     link: false,
                                     alt: "test",
                                     text: "Elle vous indique lorsque la température de cuisson voulue est atteinte. Vous pouvez ainsi vous éloigner du four sans perdre le contrôle.",
@@ -400,7 +400,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     title: "Grilles coulissantes sur glissières  SatinGlide<sup>&trade;</sup>",
-                                    image: "./public/images/more-features-3.jpg",
+                                    image: "/images/ka-fcr-landing/more-features-3.jpg",
                                     link: false,
                                     alt: "test",
                                     text: "Un glissement en douceur permet un chargement et déchargement convivial des plats. La grille comprend aussi une poignée ergonomique, vous pouvez ainsi utiliser en toute confiance des plats plus grands ou plus lourds.",
@@ -414,7 +414,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             videos: [
                                 {
                                     id: '1AZPb80TNdc',
-                                    thumb: './public/images/video-select-1.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-1.jpg',
                                     title: 'Un Emblème Révolutionnaire Pour Une Nouvelle Gamme Révolutionnaire',
                                     ctaTitle: 'Conception',
                                     alt: 'test',
@@ -428,7 +428,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     id: 'Jnosm33VWtE',
-                                    thumb: './public/images/video-select-2.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-2.jpg',
                                     title: 'Four à Convection Véritable Even-Heat&trade; de KitchenAid&restrict;',
                                     ctaTitle: 'Chaleur Uniforme',
                                     alt: 'test',
@@ -442,7 +442,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 },
                                 {
                                     id: 'wwpCbQn2s4c',
-                                    thumb: './public/images/video-select-3.jpg',
+                                    thumb: '/images/ka-fcr-landing/video-select-3.jpg',
                                     title: 'Commandes Frontales avec Bac Pour Cuisson à Vapeur',
                                     ctaTitle: 'Grille Pour Cuisson à Vapeur',
                                     alt: 'test',
@@ -470,8 +470,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/Front-Control-Range.png",
-                                    thumb: "./public/images/products/Front-Control-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Front-Control-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Front-Control-Range-sml.png",
                                     title: "Cuisinières à Commandes Frontales",
                                     alt: "Front Control Ranges",
                                     desc: "Les commandes frontales sont faciles d'accès, et grâce aux parois finies, ces modèles s'agencent harmonieusement à toute cuisine. Sans panneau arrière, ils mettent en valeur  le dosseret de votre cuisine. Ces cuisinières sont offertes en modèle à induction, au gaz, électrique, bicombustible et commercial.",
@@ -486,8 +486,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Rear-Control-Range.png",
-                                    thumb: "./public/images/products/Rear-Control-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Rear-Control-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Rear-Control-Range-sml.png",
                                     title: "Cuisinières à Commandes Arrière",
                                     alt: "Cuisinières à Commandes Arrière",
                                     desc: "Ce style classique offre une grande polyvalence, avec des commandes sur le panneau arrière. Ces cuisinières peuvent être installées entre les comptoirs, au bout d'une armoire ou séparément. Elles sont offertes à des prix variés, pour convenir à tous les budgets.",
@@ -502,8 +502,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Double-Oven-Range.png",
-                                    thumb: "./public/images/products/Double-Oven-Range-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Double-Oven-Range.png",
+                                    thumb: "/images/ka-fcr-landing/products/Double-Oven-Range-sml.png",
                                     title: "Cuisinières à Four Double",
                                     alt: "Cuisinières à Four Double",
                                     desc: "Les cuisinières à four double offrent une grande polyvalence. Le petit four peut être utilisé pour les repas de tous les jours et le grand four pour les repas de fête. Vous pouvez aussi cuire des pâtisseries et faire rôtir en même temps, le duo idéal pour tout festin.",
@@ -518,8 +518,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Wall-Oven.png",
-                                    thumb: "./public/images/products/Wall-Oven-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Wall-Oven.png",
+                                    thumb: "/images/ka-fcr-landing/products/Wall-Oven-sml.png",
                                     title: "Fours<br/>Muraux",
                                     alt: "Fours Muraux",
                                     desc: "Les fours muraux encastrés offrent une grande polyvalence dans le choix de disposition de cuisine. Ils sont généralement situés à hauteur de poitrine, les plats lourds sont ainsi faciles à prendre et à transférer sur le comptoir. Choix variés : four mural simple, double, ou combiné avec un four à micro-ondes.",
@@ -534,8 +534,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/cooktop.png",
-                                    thumb: "./public/images/products/cooktop-sml.png",
+                                    image: "/images/ka-fcr-landing/products/cooktop.png",
+                                    thumb: "/images/ka-fcr-landing/products/cooktop-sml.png",
                                     title: "Tables de Cuisson",
                                     alt: "Tables de Cuisson",
                                     desc: "Les tables de cuisson vous permettent de faire bouillir, mijoter et frire en ajoutant une touche d’élégance à votre cuisine. Elles peuvent être installées sur un comptoir ou un îlot et sont au gaz, électriques ou à induction.",
@@ -550,8 +550,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Microwave.png",
-                                    thumb: "./public/images/products/Microwave-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Microwave.png",
+                                    thumb: "/images/ka-fcr-landing/products/Microwave-sml.png",
                                     title: "Four à Micro-ondes",
                                     alt: "Four à Micro-ondes",
                                     desc: "Le four à micro-ondes à convection fait circuler l'air chaud uniformément autour des aliments. Choix variés : fours à micro-ondes encastrés, à hotte intégrée et de comptoir.",
@@ -566,8 +566,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Warming-Drawer.png",
-                                    thumb: "./public/images/products/Warming-Drawer-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Warming-Drawer.png",
+                                    thumb: "/images/ka-fcr-landing/products/Warming-Drawer-sml.png",
                                     title: "Tiroirs-Réchauds",
                                     alt: "Tiroirs-Réchauds",
                                     desc: "Allant généralement de pair avec des fours encastrés, les tiroirs-réchauds sont dotés de capteurs de température et procurent une chaleur basse, afin de conserver vos aliments au chaud jusqu'au moment de servir.",
@@ -582,8 +582,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/Hood.png",
-                                    thumb: "./public/images/products/Hood-sml.png",
+                                    image: "/images/ka-fcr-landing/products/Hood.png",
+                                    thumb: "/images/ka-fcr-landing/products/Hood-sml.png",
                                     title: "Hottes",
                                     alt: "Hottes",
                                     desc: "La ventilation de cuisine est enfin offerte en style élégant. De nombreux modèles sont munis d’un éclairage, vous pouvez donc facilement surveiller le progrès de votre cuisson. Choix variés : hotte sous armoire, montée sur îlot ou murale.",
