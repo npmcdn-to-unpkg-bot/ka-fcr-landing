@@ -33,6 +33,8 @@ export class ProductSlides {
     private descTop;
     private learnTop;
 
+    private init:boolean=false
+
     set animating(a:boolean) {
         if (this._animating != a) {
             this._animating = a
@@ -112,8 +114,6 @@ export class ProductSlides {
         target.css('display', 'inline-block');
         $(self.rootElement).find('product-slide').css('zIndex', 1)
         $(target).parent().css('zIndex', 2)
-        // Required for smooth transition
-        $('product-slides').css('height', $('.selected').css('height'));
 
         var image = ($(target).find('.rl-ka-lndng-fridge'))
         var title = ($(target).find('.rl-ka-lndng-fridge-title'))
@@ -164,6 +164,15 @@ export class ProductSlides {
               }
             });
           }
+
+          $('product-slides').css('height', $('product-slide.selected').css('height'));
+          // Required for smooth transition
+
+          if (self.init) $('html,body').animate({
+            scrollTop: $('product-selector').position().top
+          })
+
+          self.init = true
         }
       }
 }

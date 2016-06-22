@@ -36,6 +36,7 @@ System.register(['angular2/core', './product.selector.slide.js', './services/log
                     this.logger = logger;
                     this.breakpoint = breakpoint;
                     this.isAnimating = new core_1.EventEmitter();
+                    this.init = false;
                     this.elementRef = elementRef;
                     this.animating = false;
                     this.imageTop = 164;
@@ -109,8 +110,6 @@ System.register(['angular2/core', './product.selector.slide.js', './services/log
                     target.css('display', 'inline-block');
                     $(self.rootElement).find('product-slide').css('zIndex', 1);
                     $(target).parent().css('zIndex', 2);
-                    // Required for smooth transition
-                    $('product-slides').css('height', $('.selected').css('height'));
                     var image = ($(target).find('.rl-ka-lndng-fridge'));
                     var title = ($(target).find('.rl-ka-lndng-fridge-title'));
                     var desc = ($(target).find('.rl-ka-lndng-fridge-desc'));
@@ -160,6 +159,13 @@ System.register(['angular2/core', './product.selector.slide.js', './services/log
                                 }
                             });
                         }
+                        $('product-slides').css('height', $('product-slide.selected').css('height'));
+                        // Required for smooth transition
+                        if (self.init)
+                            $('html,body').animate({
+                                scrollTop: $('product-selector').position().top
+                            });
+                        self.init = true;
                     }
                 };
                 __decorate([

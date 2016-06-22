@@ -798,13 +798,20 @@ rl-ka-fcr-landing {
     rl-ka-fcr-landing product-selector product-slide {
       display: inline-block;
       position: relative;
+      width: 95%;
+      transform: translateX(-50%);
+      margin-left: 50%;
       padding-top: 20px;
       padding-bottom: 20px;
       -webkit-transition: all 1s;
       transition: all 1s; }
+      rl-ka-fcr-landing product-selector product-slide .rl-ka-lndng-side {
+        width: 100%; }
       @media screen and (max-width: 820px) {
         rl-ka-fcr-landing product-selector product-slide {
           position: relative; } }
+    rl-ka-fcr-landing product-selector product-slide:not(.selected) {
+      display: none; }
     @media screen and (max-width: 820px) {
       rl-ka-fcr-landing product-selector product-slide:first-of-type {
         position: relative; } }
@@ -900,10 +907,10 @@ rl-ka-fcr-landing {
       width: 350px; }
       @media screen and (max-width: 820px) {
         rl-ka-fcr-landing product-selector .rl-ka-lndng-fridge img {
-          height: 200px;
           margin-left: 50%;
           transform: translateX(-50%);
-          width: initial; } }
+          width: initial;
+          max-width: 80%; } }
     rl-ka-fcr-landing product-selector .rl-ka-lndng-fridge-desc {
       position: relative;
       font-size: 18px;
@@ -955,7 +962,7 @@ rl-ka-fcr-landing {
         rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product, rl-ka-fcr-landing product-selector-nav .see-all {
           float: left;
           width: 23.8%;
-          margin: 0%; } }
+          margin: 1px; } }
       rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product img, rl-ka-fcr-landing product-selector-nav .see-all img {
         width: 100%; }
     rl-ka-fcr-landing product-selector-nav .ka-dish-landing-product {
