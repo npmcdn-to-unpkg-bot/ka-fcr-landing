@@ -54,6 +54,7 @@ rl-ka-fcr-landing {
 	position: relative;
 	display: block;
 	margin-top: 117px;
+	overflow-x:hidden;
 
 	h1,h2,h3,h4,h5,[class*='title'] {
 		color: $titleColor !important;

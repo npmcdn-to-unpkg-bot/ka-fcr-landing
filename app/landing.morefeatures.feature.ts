@@ -1,4 +1,5 @@
 import {Component, Input, Inject, ElementRef} from 'angular2/core'
+import {AnalyticsServiceOn} from './analytics.directive'
 
 declare var $: JQueryStatic;
 
@@ -7,7 +8,7 @@ declare var $: JQueryStatic;
     template: `
     	<!--<a href="{{link}}">--><div>
 			<div>
-				<div class="hover">
+				<div class="hover" analyticsOn="mouseover" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}">
 					<div class="text-container">
 						<div class="text-container-cell">
 							<p class="text">{{text}}</p>
@@ -20,7 +21,7 @@ declare var $: JQueryStatic;
 			<p class="bottom-text" [innerHTML]="title"></p>
 		</div><!--</a>-->
     `,
-
+    directives: [AnalyticsServiceOn]
 })
 export class MoreFeaturesFeature {
     @Input() image

@@ -48,7 +48,7 @@ class AppComponent {
 			return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
 		})
         analytics.bind('category', function(str) {
-            return 'Dish LP'
+            return 'Cooking LP'
         })
 
         breakpoint.add('mobile', 480)

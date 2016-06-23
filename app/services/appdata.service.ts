@@ -38,7 +38,7 @@ export class AppDataService {
 						alt: "Buying Guide",
 						desc: "What to look for when you are buying",
 						cta: "Click Here",
-						link: "#",
+						link: "http://blog.kitchenaid.ca/kitchenaid-cooking-buying-guide/",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -86,7 +86,12 @@ export class AppDataService {
 						link: false,
 						alt: "test",
 						text: "Separate compartments give you even more cooking options so you can keep dishes warm, slow-cook or bake at temperatures up to 450 degrees.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Baking Drawer"
+						}
 					},
 					{
 						title: "Wireless Probe",
@@ -94,7 +99,12 @@ export class AppDataService {
 						link: false,
 						alt: "Refrigerator interior with assorted foods",
 						text: "Alerts you when desired food temperatures have been reached so you can walk away from the oven without walking away from control.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Wireless Meat Probe"
+						}
 					},
 					{
 						title: "SatinGlide<sup>&trade;</sup> Roll-Out Extension Racks",
@@ -102,7 +112,12 @@ export class AppDataService {
 						link: false,
 						alt: "Opened bottom freezer",
 						text: "Allows easy roll out for loading and unloading, and features an easy-grip handle, so you can confidently cook with large or heavy dishes.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Satin Glide Racks"
+						}
 					}
 				]
 			},
@@ -111,7 +126,7 @@ export class AppDataService {
 				title: "Designed To Inspire",
 				videos: [
 					{
-						id: 'lQXv1imsjfA',
+						id: '1AZPb80TNdc',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'A Revolutionary Mark On A Revolutionary New Line | The KitchenAid<sup>&reg;</sup> Medallion',
 						ctaTitle: 'Design',
@@ -135,7 +150,7 @@ export class AppDataService {
 						analytics: {
 							category: "@category",
 							action: "Clicked Cooking-Designed to Inspire Media",
-							label: "Cooking Dynamic Wash Arms Video"
+							label: "Even-Heat Video"
 						}
 					},
 					{
@@ -149,7 +164,7 @@ export class AppDataService {
 						analytics: {
 							category: "@category",
 							action: "Clicked Cooking-Designed to Inspire Media",
-							label: "Cooking Proscrub Video"
+							label: "Steam Rack Video"
 						}
 					}
 				]
@@ -173,13 +188,13 @@ export class AppDataService {
                         title: "Front Control Ranges",
                         alt: "Front Control Ranges",
                         desc: "Up front controls give you easy access that fits seamlessly with finished sides. This range has no back panel so you can showcase a beautiful backsplash. Also available in Induction, Gas, Electric, Dual Fuel and Commercial sizes.",
-                        link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042+10000152/",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966215/",
                         id: "front-control-range",
                         ctaText: "Learn More",
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Front-Control-Ranges",
+							label: "Front Control Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -195,7 +210,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Rear-Control-Ranges",
+							label: "Rear Control Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -211,7 +226,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Double-Oven-Ranges",
+							label: "Double Oven Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -227,7 +242,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Wall-Ovens",
+							label: "Wall Ovens",
 							learnMore: 'Learn More'
 						}
                     },
@@ -275,7 +290,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Warming-Drawers",
+							label: "Warming Drawers",
 							learnMore: 'Learn More'
 						}
                     },
@@ -291,7 +306,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Hoods",
+							label: "Hoods and Vents",
 							learnMore: 'Learn More'
 						}
                     }
@@ -313,8 +328,8 @@ export class AppDataService {
 				ctaText: 'En savoir plus',
 				analytics: {
 					category: "@category",
-					action: "Clicked Cooking Resources",
-					label: "Cooking Buying Guide"
+					action: "Clicked Cooking-Footer Banner",
+					label: "VBL-Learn More"
 				}
 			},
 			features: {
@@ -326,12 +341,12 @@ export class AppDataService {
 						alt: "Guide D’achat",
 						desc: "Éléments à considérer lorsque vous magasinez",
 						cta: "Cliquez ici",
-						link: "#",
+						link: "/pdf/global/promotions/KA_FCR_Cooking_Buying_Guide_FR",
 						type: "cart",
 						analytics: {
 							category: "@category",
-							action: "Clicked Dish Resources",
-							label: "Dish Buying Guide"
+							action: "Clicked Cooking Resources",
+							label: "Cooking Buying Guide"
 						}
 					},
 					{
@@ -340,7 +355,7 @@ export class AppDataService {
 						alt: "Évaluation et Commentaires",
 						desc: "Découvrez ce que nos clients en disent",
 						cta: "Cliquez ici",
-						link: "http://www.kitchenaid.ca/fr_CA/2_2_89/global_best-products.content.html",
+						link: "http://www.kitchenaid.ca/fr_CA/2_2_89/global_best-products.content.html#ranges",
 						type: "star",
 						analytics: {
 							category: "@category",
@@ -374,7 +389,12 @@ export class AppDataService {
 						link: false,
 						alt: "test",
 						text: "Ce compartiment séparé vous offre davantage d'options de cuisson, vous pouvez ainsi garder vos plats au chaud, faire mijoter ou bien cuire jusqu'à une température de 450 degrés.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Baking Drawer"
+						}
 					},
 					{
 						title: "Sonde sans fil",
@@ -382,7 +402,12 @@ export class AppDataService {
 						link: false,
 						alt: "test",
 						text: "Elle vous indique lorsque la température de cuisson voulue est atteinte. Vous pouvez ainsi vous éloigner du four sans perdre le contrôle.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Wireless Meat Probe"
+						}
 					},
 					{
 						title: "Grilles coulissantes sur glissières  SatinGlide<sup>&trade;</sup>",
@@ -390,7 +415,12 @@ export class AppDataService {
 						link: false,
 						alt: "test",
 						text: "Un glissement en douceur permet un chargement et déchargement convivial des plats. La grille comprend aussi une poignée ergonomique, vous pouvez ainsi utiliser en toute confiance des plats plus grands ou plus lourds.",
-						cta: ""
+						cta: "",
+						analytics: {
+							category: "@category",
+							action: "Hovered Over Cooking-Features",
+							label: "Satin Glide Racks"
+						}
 					}
 				]
 			},
@@ -415,29 +445,29 @@ export class AppDataService {
 					{
 						id: 'a6QcNup-hFw',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Four à Convection Véritable Even-Heat&trade; de KitchenAid&restrict;',
-						ctaTitle: 'Brûleur torche Even-Heat&trade;',
+						title: 'Four à Convection Véritable Even-Heat&trade; de KitchenAid<sup>&reg;</sup>',
+						ctaTitle: 'Brûleur torche Even-Heat<sup>&trade;</sup>',
 						alt: 'test',
 						cta: 'Voir la video',
 						desc: 'Procure des résultats sans faille. La conception unique en nœud papillon et le ventilateur à convection assurent que l\'intérieur du four chauffe et demeure à la température idéale.',
 						analytics: {
 							category: "@category",
 							action: "Clicked Cooking-Designed to Inspire Media",
-							label: "Cooking Dynamic Wash Arms Video"
+							label: "Even-Heat Video"
 						}
 					},
 					{
 						id: 'FfceRpZG8ew',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Commandes Frontales avec Bac Pour Cuisson à Vapeur',
-						ctaTitle: 'Glissières SatinGlide®',
+						ctaTitle: 'Glissières SatinGlide<sup>®</sup>',
 						alt: 'test',
 						cta: 'Voir la video',
 						desc: 'Réalisez des repas délicieux et sains grâce au bac pour cuisson à vapeur de notre cuisinière à commandes frontales. Ce bac spécial vous permet de rajouter un niveau précis d\'humidité, pour cuire à la vapeur et sceller les saveurs.',
 						analytics: {
 							category: "@category",
 							action: "Clicked Cooking-Designed to Inspire Media",
-							label: "Cooking Proscrub Video"
+							label: "Steam Rack Video"
 						}
 					}
 				]
@@ -459,15 +489,15 @@ export class AppDataService {
 						image: "./public/images/products/Front-Control-Range.png",
 						thumb: "./public/images/products/Front-Control-Range-sml.png",
                         title: "Cuisinières à Commandes Frontales",
-                        alt: "Front Control Ranges",
+                        alt: "Cuisinières à Commandes Frontales",
                         desc: "Les commandes frontales sont faciles d'accès, et grâce aux parois finies, ces modèles s'agencent harmonieusement à toute cuisine. Sans panneau arrière, ils mettent en valeur  le dosseret de votre cuisine. Ces cuisinières sont offertes en modèle à induction, au gaz, électrique, bicombustible et commercial.",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+10000152/",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294967111/",
                         id: "front-control-range",
                         ctaText: "En savoir plus",
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Front-Control-Ranges",
+							label: "Front Control Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -477,13 +507,13 @@ export class AppDataService {
                         title: "Cuisinières à Commandes Arrière",
                         alt: "Cuisinières à Commandes Arrière",
                         desc: "Ce style classique offre une grande polyvalence, avec des commandes sur le panneau arrière. Ces cuisinières peuvent être installées entre les comptoirs, au bout d'une armoire ou séparément. Elles sont offertes à des prix variés, pour convenir à tous les budgets.",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966120/",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966215/",
                         id: "rear-control-range",
                         ctaText: "En savoir plus",
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Rear-Control-Ranges",
+							label: "Rear Control Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -493,13 +523,13 @@ export class AppDataService {
                         title: "Cuisinières à Four Double",
                         alt: "Cuisinières à Four Double",
                         desc: "Les cuisinières à four double offrent une grande polyvalence. Le petit four peut être utilisé pour les repas de tous les jours et le grand four pour les repas de fête. Vous pouvez aussi cuire des pâtisseries et faire rôtir en même temps, le duo idéal pour tout festin.",
-                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+10000151/",
+                        link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966216/",
                         id: "double-oven-ranges",
                         ctaText: "En savoir plus",
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Double-Oven-Ranges",
+							label: "Double Oven Ranges",
 							learnMore: 'Learn More'
 						}
                     },
@@ -515,7 +545,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Wall-Ovens",
+							label: "Wall Ovens",
 							learnMore: 'Learn More'
 						}
                     },
@@ -563,7 +593,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Warming-Drawers",
+							label: "Warming Drawers",
 							learnMore: 'Learn More'
 						}
                     },
@@ -579,7 +609,7 @@ export class AppDataService {
                         analytics: {
 							category: "@category",
 							action: "Clicked Choose Your Cooking Style",
-							label: "Hoods",
+							label: "Hoods and Vents",
 							learnMore: 'Learn More'
 						}
                     }

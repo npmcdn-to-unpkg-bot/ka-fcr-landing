@@ -39,7 +39,8 @@ rl-ka-fcr-landing {
   font-size: 12pt;
   position: relative;
   display: block;
-  margin-top: 117px; }
+  margin-top: 117px;
+  overflow-x: hidden; }
   rl-ka-fcr-landing html, rl-ka-fcr-landing body, rl-ka-fcr-landing div, rl-ka-fcr-landing span, rl-ka-fcr-landing applet, rl-ka-fcr-landing object, rl-ka-fcr-landing iframe, rl-ka-fcr-landing h1, rl-ka-fcr-landing h2, rl-ka-fcr-landing h3, rl-ka-fcr-landing h4, rl-ka-fcr-landing h5, rl-ka-fcr-landing h6, rl-ka-fcr-landing p, rl-ka-fcr-landing blockquote, rl-ka-fcr-landing pre, rl-ka-fcr-landing a, rl-ka-fcr-landing abbr, rl-ka-fcr-landing acronym, rl-ka-fcr-landing address, rl-ka-fcr-landing big, rl-ka-fcr-landing cite, rl-ka-fcr-landing code, rl-ka-fcr-landing del, rl-ka-fcr-landing dfn, rl-ka-fcr-landing em, rl-ka-fcr-landing img, rl-ka-fcr-landing ins, rl-ka-fcr-landing kbd, rl-ka-fcr-landing q, rl-ka-fcr-landing s, rl-ka-fcr-landing samp, rl-ka-fcr-landing small, rl-ka-fcr-landing strike, rl-ka-fcr-landing strong, rl-ka-fcr-landing sub, rl-ka-fcr-landing sup, rl-ka-fcr-landing tt, rl-ka-fcr-landing var, rl-ka-fcr-landing b, rl-ka-fcr-landing u, rl-ka-fcr-landing i, rl-ka-fcr-landing center, rl-ka-fcr-landing dl, rl-ka-fcr-landing dt, rl-ka-fcr-landing dd, rl-ka-fcr-landing ol, rl-ka-fcr-landing ul, rl-ka-fcr-landing li, rl-ka-fcr-landing fieldset, rl-ka-fcr-landing form, rl-ka-fcr-landing label, rl-ka-fcr-landing legend, rl-ka-fcr-landing table, rl-ka-fcr-landing caption, rl-ka-fcr-landing tbody, rl-ka-fcr-landing tfoot, rl-ka-fcr-landing thead, rl-ka-fcr-landing tr, rl-ka-fcr-landing th, rl-ka-fcr-landing td, rl-ka-fcr-landing article, rl-ka-fcr-landing aside, rl-ka-fcr-landing canvas, rl-ka-fcr-landing details, rl-ka-fcr-landing embed, rl-ka-fcr-landing figure, rl-ka-fcr-landing figcaption, rl-ka-fcr-landing footer, rl-ka-fcr-landing header, rl-ka-fcr-landing hgroup, rl-ka-fcr-landing menu, rl-ka-fcr-landing nav, rl-ka-fcr-landing output, rl-ka-fcr-landing ruby, rl-ka-fcr-landing section, rl-ka-fcr-landing summary, rl-ka-fcr-landing time, rl-ka-fcr-landing mark, rl-ka-fcr-landing audio, rl-ka-fcr-landing video {
     margin: 0;
     padding: 0;
@@ -1141,7 +1142,8 @@ rl-ka-fcr-landing {
       transition: all 0.2s ease;
       background-color: #cc0000; }
     rl-ka-fcr-landing more-features-feature .text-container-cell {
-      max-width: 50%; }
+      max-width: 50%;
+      pointer-events: none; }
       rl-ka-fcr-landing more-features-feature .text-container-cell .cta {
         font-family: 'Avenir-Black', Helvetica, Arial, sans-serif;
         font-weight: 800;

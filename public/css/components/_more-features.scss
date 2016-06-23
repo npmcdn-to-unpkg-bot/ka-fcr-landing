@@ -70,6 +70,7 @@ more-features-feature {
 
 	.text-container-cell {
 	  max-width: 50%;
+	  pointer-events: none;
 
 	  .cta {
 	  	@include Avenir-Bold;
