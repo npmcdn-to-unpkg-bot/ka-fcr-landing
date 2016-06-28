@@ -203,7 +203,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     title: "Front Control Ranges",
                                     alt: "Front Control Ranges",
                                     desc: "Up front controls give you easy access that fits seamlessly with finished sides. This range has no back panel so you can showcase a beautiful backsplash. Also available in Induction, Gas, Electric, Dual Fuel and Commercial sizes.",
-                                    link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966215/",
+                                    link: "http://www.kitchenaid.ca/en_CA/shop/major-appliances-1/ranges-3/102310042+10000152/",
                                     id: "front-control-range",
                                     ctaText: "Learn More",
                                     analytics: {
@@ -332,8 +332,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                         masthead: {
                             enabled: true,
                             image: "/images/ka-fcr-landing/fcr-landing-masthead.jpg",
-                            alt: "Cuisine",
-                            title: "Cuisine"
+                            alt: "APPAREILS DE CUISSON",
+                            title: "APPAREILS DE CUISSON"
                         },
                         banner: {
                             enabled: true,
@@ -395,7 +395,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                         },
                         morefeatures: {
                             enabled: true,
-                            title: "Plus de fonctions fraîcheur",
+                            title: "FONCTIONS NOVATRICES",
                             features: [
                                 {
                                     title: "Tiroir de cuisson",
@@ -460,7 +460,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     id: 'a6QcNup-hFw',
                                     thumb: '/images/ka-fcr-landing/video-select-2.jpg',
                                     title: 'Four à Convection Véritable Even-Heat&trade; de KitchenAid<sup>&reg;</sup>',
-                                    ctaTitle: 'Brûleur torche Even-Heat<sup>&trade;</sup>',
+                                    ctaTitle: 'EvenHeat<sup>&trade;</sup>',
                                     alt: 'test',
                                     cta: 'Voir la video',
                                     desc: 'Procure des résultats sans faille. La conception unique en nœud papillon et le ventilateur à convection assurent que l\'intérieur du four chauffe et demeure à la température idéale.',
@@ -474,7 +474,7 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                     id: 'FfceRpZG8ew',
                                     thumb: '/images/ka-fcr-landing/video-select-3.jpg',
                                     title: 'Commandes Frontales avec Bac Pour Cuisson à Vapeur',
-                                    ctaTitle: 'Glissières SatinGlide<sup>®</sup>',
+                                    ctaTitle: 'Grille pour cuisson à vapeur',
                                     alt: 'test',
                                     cta: 'Voir la video',
                                     desc: 'Réalisez des repas délicieux et sains grâce au bac pour cuisson à vapeur de notre cuisinière à commandes frontales. Ce bac spécial vous permet de rajouter un niveau précis d\'humidité, pour cuire à la vapeur et sceller les saveurs.',
@@ -502,8 +502,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Front-Control-Range.png",
                                     thumb: "/images/ka-fcr-landing/products/Front-Control-Range-sml.png",
-                                    title: "Cuisinières à Commandes Frontales",
-                                    alt: "Cuisinières à Commandes Frontales",
+                                    title: "Cuisinières à commandes frontales",
+                                    alt: "Cuisinières à commandes frontales",
                                     desc: "Les commandes frontales sont faciles d'accès, et grâce aux parois finies, ces modèles s'agencent harmonieusement à toute cuisine. Sans panneau arrière, ils mettent en valeur  le dosseret de votre cuisine. Ces cuisinières sont offertes en modèle à induction, au gaz, électrique, bicombustible et commercial.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294967111/",
                                     id: "front-control-range",
@@ -518,8 +518,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Rear-Control-Range.png",
                                     thumb: "/images/ka-fcr-landing/products/Rear-Control-Range-sml.png",
-                                    title: "Cuisinières à Commandes Arrière",
-                                    alt: "Cuisinières à Commandes Arrière",
+                                    title: "Cuisinières à commandes arrière",
+                                    alt: "Cuisinières à commandes arrière",
                                     desc: "Ce style classique offre une grande polyvalence, avec des commandes sur le panneau arrière. Ces cuisinières peuvent être installées entre les comptoirs, au bout d'une armoire ou séparément. Elles sont offertes à des prix variés, pour convenir à tous les budgets.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966215/",
                                     id: "rear-control-range",
@@ -534,8 +534,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Double-Oven-Range.png",
                                     thumb: "/images/ka-fcr-landing/products/Double-Oven-Range-sml.png",
-                                    title: "Cuisinières à Four Double",
-                                    alt: "Cuisinières à Four Double",
+                                    title: "Cuisinières à four double",
+                                    alt: "Cuisinières à four double",
                                     desc: "Les cuisinières à four double offrent une grande polyvalence. Le petit four peut être utilisé pour les repas de tous les jours et le grand four pour les repas de fête. Vous pouvez aussi cuire des pâtisseries et faire rôtir en même temps, le duo idéal pour tout festin.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/ranges-3/102310042+4294966216/",
                                     id: "double-oven-ranges",
@@ -550,8 +550,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Wall-Oven.png",
                                     thumb: "/images/ka-fcr-landing/products/Wall-Oven-sml.png",
-                                    title: "Fours<br/>Muraux",
-                                    alt: "Fours Muraux",
+                                    title: "Fours<br/>muraux",
+                                    alt: "Fours muraux",
                                     desc: "Les fours muraux encastrés offrent une grande polyvalence dans le choix de disposition de cuisine. Ils sont généralement situés à hauteur de poitrine, les plats lourds sont ainsi faciles à prendre et à transférer sur le comptoir. Choix variés : four mural simple, double, ou combiné avec un four à micro-ondes.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/wall-ovens-3/102310003/",
                                     id: "wall-oven",
@@ -566,8 +566,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/cooktop.png",
                                     thumb: "/images/ka-fcr-landing/products/cooktop-sml.png",
-                                    title: "Tables de Cuisson",
-                                    alt: "Tables de Cuisson",
+                                    title: "Tables de cuisson",
+                                    alt: "Tables de cuisson",
                                     desc: "Les tables de cuisson vous permettent de faire bouillir, mijoter et frire en ajoutant une touche d’élégance à votre cuisine. Elles peuvent être installées sur un comptoir ou un îlot et sont au gaz, électriques ou à induction.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/cooktops-3/102310008/",
                                     id: "cooktop",
@@ -582,8 +582,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Microwave.png",
                                     thumb: "/images/ka-fcr-landing/products/Microwave-sml.png",
-                                    title: "Four à Micro-ondes",
-                                    alt: "Four à Micro-ondes",
+                                    title: "Four à micro-ondes",
+                                    alt: "Four à micro-ondes",
                                     desc: "Le four à micro-ondes à convection fait circuler l'air chaud uniformément autour des aliments. Choix variés : fours à micro-ondes encastrés, à hotte intégrée et de comptoir.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/microwaves-3/102310037/",
                                     id: "microwave",
@@ -598,8 +598,8 @@ System.register(['angular2/core', './logger.service.js'], function(exports_1, co
                                 {
                                     image: "/images/ka-fcr-landing/products/Warming-Drawer.png",
                                     thumb: "/images/ka-fcr-landing/products/Warming-Drawer-sml.png",
-                                    title: "Tiroirs-Réchauds",
-                                    alt: "Tiroirs-Réchauds",
+                                    title: "Tiroirs-réchauds",
+                                    alt: "Tiroirs-réchauds",
                                     desc: "Allant généralement de pair avec des fours encastrés, les tiroirs-réchauds sont dotés de capteurs de température et procurent une chaleur basse, afin de conserver vos aliments au chaud jusqu'au moment de servir.",
                                     link: "http://www.kitchenaid.ca/fr_CA/shop/major-appliances-1/warming-drawers-3/102310057/",
                                     id: "warming-drawer",
